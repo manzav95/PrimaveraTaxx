@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import SocialIcon from "react-social-icons";
+// import SocialIcon from "react-social-icons";
 
 function Info() {
   return (
@@ -30,22 +30,22 @@ function Info() {
       <section className="website-links">
         <ul className="site-links">
           <li>
-            <SocialIcon
+            {/* <SocialIcon
               url="https://www.facebook.com/Primavera-Taxx-310813666103767/?ref=br_rs"
               style={{ width: "20px" }}
-            />
+            /> */}
           </li>
           <li>
-            <SocialIcon
+            {/* <SocialIcon
               url="https://www.yelp.com/biz/primavera-taxx-antioch-2"
               style={{ width: "20px" }}
-            />
+            /> */}
           </li>
           <li>
-            <SocialIcon
+            {/* <SocialIcon
               url="https://www.linkedin.com/in/maria-luisa-hernandez-2abaa393/"
               style={{ width: "20px" }}
-            />
+            /> */}
           </li>
         </ul>
       </section>
