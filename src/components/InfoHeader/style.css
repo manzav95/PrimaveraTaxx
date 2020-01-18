@@ -1,8 +1,43 @@
+.infoHeader {
+  font-size: 10px;
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+}
+
+.info-links {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .list {
   list-style: none;
   display: flex;
   text-align: center;
   justify-content: space-around;
+  align-items: center;
   margin: 0;
-  padding: 10px 0px;
+  padding: 0;
+}
+
+.website-links {
+  border: 1px solid black;
+  display: flex;
+
+}
+
+li{
+  padding: 0 10px;
+}
+
+.site-links {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }

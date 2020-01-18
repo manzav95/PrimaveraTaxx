@@ -1,17 +1,16 @@
 import React from "react";
 import "./style.css";
+import { SocialIcon } from "react-social-icons";
 
 function Info() {
   return (
     <div className="infoHeader">
-      <ul className="list">
-        <li>
-          <h4>
+      <section className="info-links">
+        <ul className="list">
+          <li>
             Call Us Now: <a href="tel:+19255501986 ">(925)550-1986 </a>
-          </h4>
-        </li>
-        <li>
-          <h4>
+          </li>
+          <li>
             Email Us:{" "}
             <a
               href="mailto:primaverataxx@gmail.com?Subject=Hello%20again"
@@ -20,16 +19,36 @@ function Info() {
             >
               primaverataxx@gmail.com
             </a>
-          </h4>
-        </li>
-        <li>
-          <h4>
+          </li>
+          <li>
             <a href="http://maps.google.com/maps?q=4369+Hillcrest+Ave,+Antioch,+CA+94565">
               4369 Hillcrest Ave, Antioch, CA, 94531
             </a>
-          </h4>
-        </li>
-      </ul>
+          </li>
+        </ul>
+      </section>
+      <section className="website-links">
+        <ul className="site-links">
+          <li>
+            <SocialIcon
+              url="https://www.facebook.com/Primavera-Taxx-310813666103767/?ref=br_rs"
+              style={{ width: "20px" }}
+            />
+          </li>
+          <li>
+            <SocialIcon
+              url="https://www.yelp.com/biz/primavera-taxx-antioch-2"
+              style={{ width: "20px" }}
+            />
+          </li>
+          <li>
+            <SocialIcon
+              url="https://www.linkedin.com/in/maria-luisa-hernandez-2abaa393/"
+              style={{ width: "20px" }}
+            />
+          </li>
+        </ul>
+      </section>
     </div>
   );
 }

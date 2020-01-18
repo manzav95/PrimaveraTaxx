@@ -50,10 +50,14 @@ class NavBarr extends Component {
             <a
               href="https://login.atomanager.com/ATOM_PRI/WebInfo.aspx"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Login
             </a>{" "}
-            | <a href="">Sign Up</a>
+            |{" "}
+            <a href="https://login.atomanager.com/ATOM_PRI/default.aspx?redirect=ProspectMessage.aspx">
+              Sign Up
+            </a>
           </h4>
         </Navbar>
       </div>

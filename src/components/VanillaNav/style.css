@@ -1,14 +1,19 @@
 .title-name {
   margin-left: 10px;
+  color: white;
+}
+
+.nav-wrapper {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-around;
+  background-color: rgb(28, 170, 116);
 }
 
 .nav-section {
-  border: 1px solid black;
+  border: 1px solid yellow;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(28, 170, 116);
-  padding-left: 80px;
-  padding-right: 80px;
 }
 
 .nav-links {
@@ -18,10 +23,54 @@
   margin: 0;
   padding: 0px 10px;
   align-items: center;
+  font-size: 12px;
+}
+
+Link:hover {
+  text-decoration: none;
+}
+/* .linklink:hover {
+  text-decoration: none;
+  color: white;
+  text-underline-position: above;
+  text-decoration-style: none;
+} */
+
+.login-container {
+  border: 1px solid black;
+  display: flex;
+  font-size: 12px;
+}
+
+#word-primavera {
+  color: #ffdd00;
+}
+
+.login-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  padding: 0;
+}
+
+.login-links .linklink {
+  padding: 8px;
 }
 
 .linklink {
   padding: 0 30px;
+  color: white;
+}
+
+.login-links {
+  color: white;
+  text-decoration: none;
+}
+
+.login-links:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .vanil-nav {
