@@ -1,0 +1,29 @@
+.title-name {
+  margin-left: 10px;
+}
+
+.nav-section {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(28, 170, 116);
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.nav-links {
+  list-style: none;
+  border: 1px solid red;
+  display: flex;
+  margin: 0;
+  padding: 0px 10px;
+  align-items: center;
+}
+
+.linklink {
+  padding: 0 30px;
+}
+
+.vanil-nav {
+  border: 1px solid green;
+}
