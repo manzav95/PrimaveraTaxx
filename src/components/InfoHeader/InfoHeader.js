@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { SocialIcon } from "react-social-icons";
+import SocialIcon from "react-social-icons";
 
 function Info() {
   return (
