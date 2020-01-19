@@ -1,3 +1,8 @@
+.vanil-nav{
+  position: sticky;
+  top: 0;
+}
+
 .title-name {
   margin-left: 10px;
   color: white;
@@ -7,7 +12,8 @@
   display: flex;
   border: 1px solid black;
   justify-content: space-around;
-  background-color: rgb(28, 170, 116);
+  background-color: #00a86b;
+  padding: 10px 0;
 }
 
 .nav-section {
@@ -26,7 +32,7 @@
   font-size: 12px;
 }
 
-Link:hover {
+link:hover {
   text-decoration: none;
 }
 /* .linklink:hover {
@@ -61,6 +67,23 @@ Link:hover {
 .linklink {
   padding: 0 30px;
   color: white;
+  border-radius: 45%;
+
+  transition: background 0.5s ease;
+}
+
+.linklink:hover {
+  background-color: white;
+  color: #00a86b;
+}
+.linklinks {
+  width: 80px;
+}
+
+.linklinks:hover {
+  transform: scale(1.1, 1.1);
+  color: #ffdd00;
+  transition-duration: 0.7s;
 }
 
 .login-links {
@@ -68,11 +91,54 @@ Link:hover {
   text-decoration: none;
 }
 
+#line-divide {
+  color: white;
+}
+
 .login-links:hover {
   text-decoration: none;
-  color: white;
+  color: #ffdd00;
 }
 
 .vanil-nav {
   border: 1px solid green;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  color: white;
+}
+
+.dropbtn:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #00a86b;
+  text-decoration: none;
+  opacity: 0.5;
 }

@@ -1,0 +1,44 @@
+.home-landing {
+  background-image: url("../../images/home-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  border: 1px solid black;
+}
+
+.landing-wrapper {
+  border: 1px solid blue;
+  height: 100%;
+  padding: 0px 70px;
+}
+
+.landing-main-text {
+  border: 1px solid black;
+  width: 400px;
+  text-align: left;
+  margin-top: 20vh;
+}
+
+.landing-header {
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.info {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#learn-btn {
+  background-color: #00a86b;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 7px;
+}
+
+.body-wrapper {
+  height: 1000px;
+}

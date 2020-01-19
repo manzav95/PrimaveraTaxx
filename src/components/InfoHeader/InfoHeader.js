@@ -13,7 +13,7 @@ function Info() {
           <li>
             Email Us:{" "}
             <a
-              href="mailto:primaverataxx@gmail.com?Subject=Hello%20again"
+              href="mailto:primaverataxx@gmail.com?Subject=Hello%20Again&body=Yessir%20Hi%20Babe"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -21,7 +21,11 @@ function Info() {
             </a>
           </li>
           <li>
-            <a href="http://maps.google.com/maps?q=4369+Hillcrest+Ave,+Antioch,+CA+94565">
+            <a
+              href="http://maps.google.com/maps?q=4369+Hillcrest+Ave,+Antioch,+CA+94565"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               4369 Hillcrest Ave, Antioch, CA, 94531
             </a>
           </li>
@@ -30,22 +34,28 @@ function Info() {
       <section className="website-links">
         <ul className="site-links">
           <li>
-            {/* <SocialIcon
-              url="https://www.facebook.com/Primavera-Taxx-310813666103767/?ref=br_rs"
-              style={{ width: "20px" }}
-            /> */}
+            <a
+              href="https://www.facebook.com/Primavera-Taxx-310813666103767/?ref=br_rs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="fa fa-facebook"
+            ></a>
           </li>
           <li>
-            {/* <SocialIcon
-              url="https://www.yelp.com/biz/primavera-taxx-antioch-2"
-              style={{ width: "20px" }}
-            /> */}
+            <a
+              href="https://www.yelp.com/biz/primavera-taxx-antioch-2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="fa fa-yelp"
+            ></a>
           </li>
           <li>
-            {/* <SocialIcon
-              url="https://www.linkedin.com/in/maria-luisa-hernandez-2abaa393/"
-              style={{ width: "20px" }}
-            /> */}
+            <a
+              href="https://www.linkedin.com/in/maria-luisa-hernandez-2abaa393/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="fa fa-linkedin"
+            ></a>
           </li>
         </ul>
       </section>
