@@ -11,19 +11,22 @@
   border: 1px solid blue;
   height: 100%;
   padding: 0px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .landing-main-text {
   border: 1px solid black;
-  width: 400px;
-  text-align: left;
-  margin-top: 20vh;
+  width: 500px;
+  text-align: center;
 }
 
 .landing-header {
-  font-size: 60px;
+  font-size: 65px;
+  font-weight: bold;
   color: white;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 7px #000000;
 }
 
 .info {
@@ -39,6 +42,48 @@
   padding: 7px;
 }
 
-.body-wrapper {
-  height: 1000px;
+#learn-btn:hover {
+  text-decoration: none;
+}
+
+.icons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+
+.roll-image {
+  border: 1px solid black;
+  width: auto;
+  height: 120px;
+  display: flex;
+}
+
+.enrolled {
+  height: 80px;
+}
+
+.nna {
+  height: 100px;
+}
+
+.second-hom {
+  display: flex;
+  justify-content: center;
+}
+
+.second-home {
+  margin: 30px 0px;
+  width: 650px;
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  right: 50%;
+}
+
+.second-home p {
+  padding: 5px 15px;
 }

@@ -1,4 +1,4 @@
-.vanil-nav{
+.vanil-nav {
   position: sticky;
   top: 0;
 }
@@ -10,21 +10,21 @@
 
 .nav-wrapper {
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   justify-content: space-around;
   background-color: #00a86b;
   padding: 10px 0;
 }
 
 .nav-section {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   display: flex;
   justify-content: space-between;
 }
 
 .nav-links {
   list-style: none;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   margin: 0;
   padding: 0px 10px;
@@ -43,7 +43,7 @@ link:hover {
 } */
 
 .login-container {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   font-size: 12px;
 }
