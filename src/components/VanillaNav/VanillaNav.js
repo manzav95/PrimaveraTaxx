@@ -21,6 +21,10 @@ function VanillaNav() {
             <Link to="/contact" style={{ textDecoration: "none" }}>
               <li className="linklink">Contact</li>
             </Link>
+
+            <Link to="/reviews" style={{ textDecoration: "none" }}>
+              <li className="linklink">Reviews</li>
+            </Link>
             <li className="dropdown">
               <a
                 className="linklink"
@@ -35,9 +39,6 @@ function VanillaNav() {
                 <a href="#">Link 3</a>
               </div>
             </li>
-            <Link to="/reviews" style={{ textDecoration: "none" }}>
-              <li className="linklink">Reviews</li>
-            </Link>
           </ul>
         </section>
         <section className="login-container">
