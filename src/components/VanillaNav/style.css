@@ -14,6 +14,7 @@
   justify-content: space-around;
   background-color: #00a86b;
   padding: 10px 0;
+  width: 100%;
 }
 
 .nav-section {
@@ -101,7 +102,7 @@ link:hover {
 }
 
 .vanil-nav {
-  border: 1px solid green;
+  border: 1px solid black;
 }
 .dropdown {
   position: relative;

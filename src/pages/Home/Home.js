@@ -44,7 +44,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="second-hom">
+      {/* <section className="second-hom">
         <section className="second-home">
           <img src={maria} alt="maria l hernandez" width="450px" />
           <p>
@@ -56,7 +56,7 @@ function Home() {
             totam odio deserunt quis laborum aliquam!
           </p>
         </section>
-      </section>
+      </section> */}
     </div>
   );
 }

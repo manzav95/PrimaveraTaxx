@@ -13,7 +13,7 @@ function Info() {
           <li>
             Email Us:{" "}
             <a
-              href="mailto:primaverataxx@gmail.com?Subject=Hello%20Again&body=Yessir%20Hi%20Babe"
+              href="mailto:primaverataxx@gmail.com?Subject=Hello%20Again&body=Hello%20Primavera%20Taxx"
               target="_blank"
               rel="noopener noreferrer"
             >
