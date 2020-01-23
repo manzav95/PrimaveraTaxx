@@ -9,20 +9,23 @@ import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
 import VanillaNav from "./components/VanillaNav/VanillaNav";
 import Info from "./components/InfoHeader/InfoHeader";
+import ScrollToTop from "react-router-scroll-top";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        {/* <NavBarr /> */}
-        <Info />
+        <ScrollToTop>
+          {/* <NavBarr /> */}
+          <Info />
 
-        <VanillaNav />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
+          <VanillaNav />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+        </ScrollToTop>
       </Router>
     </div>
   );
