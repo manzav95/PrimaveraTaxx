@@ -143,3 +143,12 @@ link:hover {
   text-decoration: none;
   opacity: 0.5;
 }
+.box-shadow:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 4px;
+  z-index: -1;
+  transform: scale(2.2);
+  box-shadow: 0px 0px 5px 3px #000000;
+}

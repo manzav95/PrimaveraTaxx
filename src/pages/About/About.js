@@ -1,5 +1,6 @@
 import React from "react";
 import maria from "../../images/maria-ea.png";
+import jj from "../../images/juanjose.jpeg";
 import "./style.css";
 
 function About() {
@@ -24,20 +25,24 @@ function About() {
       </section>
       <section className="co-work-icons">
         <section className="worker">
-        <img src={maria} alt="juanjose"  className="image"/>
-          <p></p>
+          <img src={jj} alt="juanjose" className="image" />
+          <p className="worker-name">Juan Jose Hernandez</p>
+          <h6>CTEC and MBA</h6>
         </section>
         <section className="worker">
-          <img src={maria} alt="juanjose"  className="image"/>
-          <p></p>
+          <img src={jj} alt="juanjose" className="image" />
+          <p className="worker-name">Juan Jose Hernandez</p>
+          <h6>CTEC and MBA</h6>
         </section>
         <section className="worker">
-        <img src={maria} alt="juanjose"  className="image"/>
-          <p></p>
+          <img src={jj} alt="juanjose" className="image" />
+          <p className="worker-name">Juan Jose Hernandez</p>
+          <h6>CTEC and MBA</h6>
         </section>
         <section className="worker">
-        <img src={maria} alt="juanjose"  className="image"/>
-          <p></p>
+          <img src={jj} alt="juanjose" className="image" />
+          <p className="worker-name">Juan Jose Hernandez</p>
+          <h6>CTEC and MBA</h6>
         </section>
       </section>
       <section className="about-cowork">

@@ -5,7 +5,7 @@ import Info from "../InfoHeader/InfoHeader";
 
 function VanillaNav() {
   return (
-    <nav className="vanil-nav">
+    <nav className="vanil-nav box-shadow">
       <section className="nav-wrapper">
         <section className="nav-section">
           <Link to="/" style={{ textDecoration: "none" }}>
