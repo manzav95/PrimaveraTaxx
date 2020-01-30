@@ -10,6 +10,7 @@ import Contact from "./pages/Contact/Contact";
 import VanillaNav from "./components/VanillaNav/VanillaNav";
 import Info from "./components/InfoHeader/InfoHeader";
 import ScrollToTop from "react-router-scroll-top";
+import "./style/style.css";
 
 function App() {
   return (
