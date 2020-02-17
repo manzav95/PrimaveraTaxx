@@ -1,0 +1,37 @@
+.footer-main {
+  height: 80px;
+  border-top: 5px solid #4aaaa5;
+  background-color: #00a86b;
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+  margin-top: 20px;
+}
+
+.footer {
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-footer a {
+  margin: 5px;
+  color: white;
+}
+
+.contact-footer a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}

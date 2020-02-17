@@ -10,6 +10,7 @@ import Contact from "./pages/Contact/Contact";
 import VanillaNav from "./components/VanillaNav/VanillaNav";
 import Info from "./components/InfoHeader/InfoHeader";
 import ScrollToTop from "react-router-scroll-top";
+import Footer from "./components/Footer/Footer";
 import "./style/style.css";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
           </Switch>
+          <Footer />
         </ScrollToTop>
       </Router>
     </div>

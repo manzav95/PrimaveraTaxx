@@ -9,9 +9,9 @@ function VanillaNav() {
       <section className="nav-wrapper">
         <section className="nav-section">
           <Link to="/" style={{ textDecoration: "none" }}>
-            <h2 className="title-name">
+            <h1 className="title-name">
               <span id="word-primavera">Primavera</span> Taxx
-            </h2>
+            </h1>
           </Link>
 
           <ul className="nav-links">
@@ -25,14 +25,15 @@ function VanillaNav() {
             <Link to="/reviews" style={{ textDecoration: "none" }}>
               <li className="linklink">Reviews</li>
             </Link>
-            <li className="dropdown">
-              <a
+            <li className="dropdown linklink dropbtn">
+              {/* <a
                 className="linklink"
                 href="javascript:void(0)"
                 className="dropbtn"
               >
                 Resources
-              </a>
+              </a>{" "} */}
+              Resources
               <div className="dropdown-content">
                 <a href="#">Link 1</a>
                 <a href="#">Link 2</a>

@@ -1,11 +1,17 @@
 .vanil-nav {
   position: sticky;
   top: 0;
+  width: 100%;
+  font-size: 16px;
 }
 
 .title-name {
   margin-left: 10px;
   color: white;
+}
+
+.title-name:hover {
+  opacity: 0.8;
 }
 
 .nav-wrapper {
@@ -30,7 +36,6 @@
   margin: 0;
   padding: 0px 10px;
   align-items: center;
-  font-size: 12px;
 }
 
 link:hover {
@@ -46,7 +51,6 @@ link:hover {
 .login-container {
   /* border: 1px solid black; */
   display: flex;
-  font-size: 12px;
 }
 
 #word-primavera {
@@ -58,7 +62,6 @@ link:hover {
   display: flex;
   margin: 0;
   align-items: center;
-  padding: 0;
 }
 
 .login-links .linklink {
@@ -68,7 +71,6 @@ link:hover {
 .linklink {
   padding: 0 30px;
   color: white;
-  border-radius: 45%;
 
   transition: background 0.5s ease;
 }
@@ -78,12 +80,11 @@ link:hover {
   color: #00a86b;
 }
 .linklinks {
-  width: 80px;
+  width: 90px;
 }
 
 .linklinks:hover {
   transform: scale(1.1, 1.1);
-  color: #ffdd00;
   transition-duration: 0.7s;
 }
 
@@ -98,7 +99,7 @@ link:hover {
 
 .login-links:hover {
   text-decoration: none;
-  color: #ffdd00;
+  color: white;
 }
 
 .vanil-nav {
@@ -107,6 +108,7 @@ link:hover {
 .dropdown {
   position: relative;
   display: inline-block;
+  padding: 0px 30px;
 }
 
 .dropbtn {
@@ -114,13 +116,14 @@ link:hover {
 }
 
 .dropbtn:hover {
-  color: white;
+  /* color: white; */
   text-decoration: none;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
+  left: 0px;
   background-color: gray;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -139,7 +142,7 @@ link:hover {
 }
 
 .dropdown-content a:hover {
-  color: #00a86b;
+  color: black;
   text-decoration: none;
   opacity: 0.5;
 }

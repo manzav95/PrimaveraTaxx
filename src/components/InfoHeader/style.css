@@ -1,9 +1,14 @@
 .infoHeader {
-  font-size: 10px;
+  font-size: 16px;
   display: flex;
   justify-content: space-around;
   height: auto;
   background-color: white;
+  color: black;
+}
+
+.infoContact{
+  font-size: 15px;
 }
 
 .info-links {
@@ -46,7 +51,7 @@ li a {
   margin: 0;
 }
 
-.fa {
+.fab {
   padding: 7px;
   font-size: 15px;
   width: 30px;
@@ -58,23 +63,23 @@ li a {
   justify-content: center;
 }
 
-.fa:hover {
-  text-decoration: none;
-  color: white;
+.fab:hover {
+  /* text-decoration: none; */
+  /* color: white; */
   opacity: 0.7;
 }
 
-.fa-facebook {
-  background: #3b5998;
+.fa-facebook-f {
+  background-color: #3b5998;
   color: white;
 }
 
 .fa-yelp {
-  background: #af0606;
   color: white;
+  background-color: #af0606;
 }
 
-.fa-linkedin {
-  background: #007bb5;
+.fa-linkedin-in {
+  background-color: #007bb5;
   color: white;
 }
