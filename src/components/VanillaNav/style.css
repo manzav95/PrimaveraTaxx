@@ -16,7 +16,6 @@
 
 .nav-wrapper {
   display: flex;
-  /* border: 1px solid black; */
   justify-content: space-around;
   background-color: #00a86b;
   padding: 10px 0;
@@ -24,14 +23,12 @@
 }
 
 .nav-section {
-  /* border: 1px solid yellow; */
   display: flex;
   justify-content: space-between;
 }
 
 .nav-links {
   list-style: none;
-  /* border: 1px solid red; */
   display: flex;
   margin: 0;
   padding: 0px 10px;
@@ -41,15 +38,8 @@
 link:hover {
   text-decoration: none;
 }
-/* .linklink:hover {
-  text-decoration: none;
-  color: white;
-  text-underline-position: above;
-  text-decoration-style: none;
-} */
 
 .login-container {
-  /* border: 1px solid black; */
   display: flex;
 }
 
@@ -68,25 +58,27 @@ link:hover {
   padding: 8px;
 }
 
+.linklink:hover {
+  transform: translateY(-5px);
+}
+
 .linklink {
   padding: 0 30px;
   color: white;
 
-  transition: background 0.5s ease;
+  transition: transform .5s ease-in;
 }
 
-.linklink:hover {
-  background-color: white;
-  color: #00a86b;
-}
-.linklinks {
-  width: 90px;
-}
 
 .linklinks:hover {
-  transform: scale(1.1, 1.1);
-  transition-duration: 0.7s;
+  transform: translateY(-5px);
 }
+
+.linklinks {
+  width: 90px;
+  transition: transform .5s ease-in;
+}
+
 
 .login-links {
   color: white;
@@ -116,16 +108,15 @@ link:hover {
 }
 
 .dropbtn:hover {
-  /* color: white; */
   text-decoration: none;
+  cursor: pointer;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  left: 0px;
   background-color: gray;
-  min-width: 160px;
+  min-width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -156,10 +147,36 @@ link:hover {
   box-shadow: 0px 0px 5px 3px #000000;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .vanil-nav {
-    width: 100%;
-    border: 1px solid red;
-  }
+.burger-toggle{
+  /* display: block; */
+  position: relative;
+  z-index: 1;
+  display: none;
+}
+
+.burger-toggle input{
+  display: block;
+  width: 44px;
+  height: 32px;
+  position: absolute;
+  top: -4px;
+  left: -40px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.burger-toggle span{
+  display: block;
+  height: 4px;
+  width: 33px;
+  margin-bottom: 5px;
+  position: relative;
+  left: -36px;
+  border-radius: 5px;
+  transform-origin: 4px 0px;
+  background-color: black;
+}
+
+.burger-toggle input:hover{
+  cursor: pointer;
 }

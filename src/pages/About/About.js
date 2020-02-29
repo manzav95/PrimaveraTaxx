@@ -45,30 +45,6 @@ function About() {
           <h6>CTEC and MBA</h6>
         </section>
       </section>
-      <section className="about-cowork">
-        <h3 id="team-header">Rest of Team</h3>
-        <section className="team-right-flex">
-          <section className="right-team">
-            <p className="right-p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Inventore perspiciatis eum error ratione accusantium voluptates
-              explicabo asperiores, architecto iusto. Ipsum!
-            </p>
-
-            <img src={maria} alt="maria l hernandez" width="250px" />
-          </section>
-        </section>
-        <section className="team-left-flex">
-          <section className="left-team">
-            <img src={maria} alt="maria l hernandez" width="250px" />
-            <p className="left-p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Inventore perspiciatis eum error ratione accusantium voluptates
-              explicabo asperiores, architecto iusto. Ipsum!
-            </p>
-          </section>
-        </section>
-      </section>
     </div>
   );
 }

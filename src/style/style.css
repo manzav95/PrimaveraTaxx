@@ -1,7 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 1025px) {
+  .infoContact {
+    font-size: 12px;
+  }
+  
+  .title-name {
+    font-size: 35px;
+  }
+
+  .login-container {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .App {
-    /* width: max-content; */
-    border: 1px solid green;
+  html {
+    width: 100%;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .roll-image {
+    padding: 10px 30px;
+  }
+
+  .nav-section {
+    width: 100%;
+    align-items: center;
+    padding: 0px 30px;
+    transition: ease-in 1s;
+  }
+
+  .burger-toggle {
+    display: block;
   }
 }

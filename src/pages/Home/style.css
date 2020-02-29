@@ -49,16 +49,14 @@
 .icons-wrapper {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-around;
-  /* border: 1px solid black; */
   margin-top: 30px;
 }
 
 .roll-image {
-  /* border: 1px solid black; */
   width: auto;
   height: 120px;
-  display: flex;
 }
 
 .enrolled {
@@ -67,4 +65,8 @@
 
 .nna {
   height: 100px;
+}
+
+.get-started {
+  font-weight: 500;
 }

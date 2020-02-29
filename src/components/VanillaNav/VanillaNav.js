@@ -26,13 +26,6 @@ function VanillaNav() {
               <li className="linklink">Reviews</li>
             </Link>
             <li className="dropdown linklink dropbtn">
-              {/* <a
-                className="linklink"
-                href="javascript:void(0)"
-                className="dropbtn"
-              >
-                Resources
-              </a>{" "} */}
               Resources
               <div className="dropdown-content">
                 <a href="#">Link 1</a>
@@ -41,6 +34,12 @@ function VanillaNav() {
               </div>
             </li>
           </ul>
+          <div className="burger-toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </section>
         <section className="login-container">
           <ul className="login-links">
@@ -54,9 +53,9 @@ function VanillaNav() {
                 Returning Clients
               </a>
             </li>
-            <h4 id="line-divide">|</h4>
+            <h4 id="line-divide"> |</h4>
             <li className="linklinks">
-              {" "}
+              {/* {" "} */}
               <a
                 className="login-links"
                 href="https://login.atomanager.com/ATOM_PRI/default.aspx?redirect=ProspectMessage.aspx"

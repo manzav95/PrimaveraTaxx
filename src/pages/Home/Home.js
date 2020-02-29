@@ -14,8 +14,8 @@ function Home() {
           <section className="landing-main-text">
             <p className="landing-header">Tax Season Has Arrived!</p>
             <p className="info">
-              Click 'Get Started' to get in contact with one of our Enrolled
-              Agents Today!
+              Click <span className="get-started">Get Started</span> to get in
+              contact with one of our Enrolled Agents Today!
             </p>
             <a
               id="learn-btn"

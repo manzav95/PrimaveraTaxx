@@ -12,7 +12,6 @@
 }
 
 .info-links {
-  /* border: 1px solid black; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +28,6 @@
 }
 
 .website-links {
-  /* border: 1px solid black; */
   display: flex;
 }
 
@@ -64,8 +62,6 @@ li a {
 }
 
 .fab:hover {
-  /* text-decoration: none; */
-  /* color: white; */
   opacity: 0.7;
 }
 
