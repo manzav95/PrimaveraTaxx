@@ -66,9 +66,8 @@ link:hover {
   padding: 0 30px;
   color: white;
 
-  transition: transform .5s ease-in;
+  transition: transform 0.5s ease-in;
 }
-
 
 .linklinks:hover {
   transform: translateY(-5px);
@@ -76,9 +75,8 @@ link:hover {
 
 .linklinks {
   width: 90px;
-  transition: transform .5s ease-in;
+  transition: transform 0.5s ease-in;
 }
-
 
 .login-links {
   color: white;
@@ -147,14 +145,14 @@ link:hover {
   box-shadow: 0px 0px 5px 3px #000000;
 }
 
-.burger-toggle{
+.burger-toggle {
   /* display: block; */
   position: relative;
   z-index: 1;
   display: none;
 }
 
-.burger-toggle input{
+.burger-toggle input {
   display: block;
   width: 44px;
   height: 32px;
@@ -165,7 +163,7 @@ link:hover {
   opacity: 0;
 }
 
-.burger-toggle span{
+.burger-toggle span {
   display: block;
   height: 4px;
   width: 33px;
@@ -175,8 +173,33 @@ link:hover {
   border-radius: 5px;
   transform-origin: 4px 0px;
   background-color: black;
+
+  /* transform-origin: 4px 0px; */
+
+  transition: transform .5s ease, opacity .5s;
 }
 
-.burger-toggle input:hover{
+.burger-toggle input:hover {
   cursor: pointer;
+}
+
+.burger-toggle span:first-child{
+  transform-origin: 0% 0%;
+}
+
+.burger-toggle span:nth-last-child(2){
+  transform-origin: 0% 100%;
+}
+
+
+.burger-toggle input:checked ~ span {
+  transform: rotate(-45deg) translate(-2px, -3px);
+}
+.burger-toggle input:checked ~ span:nth-last-child(2) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.burger-toggle input:checked ~ span:nth-last-child(3) {
+  transform: rotate(45deg) translate(0, 0px);
 }
