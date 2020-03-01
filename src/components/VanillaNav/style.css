@@ -8,10 +8,12 @@
 .title-name {
   margin-left: 10px;
   color: white;
+  transition: opacity 0.5s ease-in;
 }
 
 .title-name:hover {
-  opacity: 0.8;
+  opacity: 0.6;
+  color: white;
 }
 
 .nav-wrapper {
@@ -176,21 +178,20 @@ link:hover {
 
   /* transform-origin: 4px 0px; */
 
-  transition: transform .5s ease, opacity .5s;
+  transition: transform 0.5s ease, opacity 0.5s;
 }
 
 .burger-toggle input:hover {
   cursor: pointer;
 }
 
-.burger-toggle span:first-child{
+.burger-toggle span:first-child {
   transform-origin: 0% 0%;
 }
 
-.burger-toggle span:nth-last-child(2){
+.burger-toggle span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
-
 
 .burger-toggle input:checked ~ span {
   transform: rotate(-45deg) translate(-2px, -3px);

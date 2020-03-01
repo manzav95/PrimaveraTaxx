@@ -5,16 +5,18 @@
   height: auto;
   background-color: white;
   color: black;
+  width: 100%;
 }
 
-.infoContact{
+.infoContact {
   font-size: 15px;
 }
 
 .info-links {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .list {
@@ -25,10 +27,13 @@
   align-items: center;
   margin: 0;
   padding: 0;
+  padding-right: 15px;
+  width: 100%;
 }
 
 .website-links {
   display: flex;
+  padding-right: 60px;
 }
 
 li {
@@ -78,4 +83,29 @@ li a {
 .fa-linkedin-in {
   background-color: #007bb5;
   color: white;
+}
+
+.info-links input {
+  display: block;
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  z-index: 2;
+  opacity: 0;
+  display: none;
+}
+
+.fa-times {
+  position: relative;
+  right: 15px;
+  transition: transform 0.5s ease-in;
+  display: none;
+}
+
+.infoHeader input:checked ~ .infoHeader {
+  transform: translateY(40px);
+}
+
+.info-links input:hover {
+  cursor: pointer;
 }

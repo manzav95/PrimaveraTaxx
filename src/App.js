@@ -12,6 +12,7 @@ import Info from "./components/InfoHeader/InfoHeader";
 import ScrollToTop from "react-router-scroll-top";
 import Footer from "./components/Footer/Footer";
 import "./style/style.css";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 function App() {
   return (
