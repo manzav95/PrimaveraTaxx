@@ -40,7 +40,7 @@ function Info() {
           </li>
         </ul>
         <input type="checkbox" id="info-checkbox" />
-        <i class="fas fa-times"></i>
+        <i class="fas fa-times info-x"></i>
       </section>
       <section className="website-links">
         <ul className="site-links">

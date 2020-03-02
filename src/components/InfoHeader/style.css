@@ -64,6 +64,7 @@ li a {
   border-radius: 15%;
   display: flex;
   justify-content: center;
+  transition: opacity 0.2s ease-in;
 }
 
 .fab:hover {
@@ -98,14 +99,21 @@ li a {
 .fa-times {
   position: relative;
   right: 15px;
-  transition: transform 0.5s ease-in;
+  transition: display 0.5s ease-in;
   display: none;
 }
 
 .infoHeader input:checked ~ .infoHeader {
-  transform: translateY(40px);
+  display: none;
 }
 
 .info-links input:hover {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .infoHeader input:checked ~ .infoHeader{
+    display: none;
+  }
+
 }
