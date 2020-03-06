@@ -2,6 +2,22 @@ import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
 import Info from "../InfoHeader/InfoHeader";
+import SideBar from "../SideBar/SideBar";
+
+const sideBar = function() {
+  let burger = document.querySelector(".burger-toggle");
+  let sideNav = document.querySelector(".sidebar-wrapper");
+
+  // document.addEventListener("click", function(e) {
+  //   e.preventDefault();
+
+  //   // if (!e.target.matches("#cheeseburger")) return;
+
+  //   sideNav.style.display = "block";
+
+  //   console.log(e.target);
+  // });
+};
 
 function VanillaNav() {
   return (
@@ -35,7 +51,7 @@ function VanillaNav() {
             </li>
           </ul>
           <div className="burger-toggle">
-            <input type="checkbox" />
+            <input type="checkbox" id="cheeseburger" onClick={sideBar} />
             <span></span>
             <span></span>
             <span></span>

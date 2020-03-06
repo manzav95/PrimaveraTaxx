@@ -10,6 +10,10 @@ body {
   font-family: sans-serif;
 }
 
+.burger-toggle input:checked ~ .sidebar-wrapper {
+  display: block;
+}
+
 @media only screen and (max-width: 1025px) {
   .infoContact {
     font-size: 14px;
