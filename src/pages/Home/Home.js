@@ -5,12 +5,10 @@ import irs from "../../images/irs.jpg";
 import nna from "../../images/nna.jpg";
 import csea from "../../images/csea.jpg";
 import maria from "../../images/maria-ea.png";
-import SideNav from "./../../components/SideNav/SideNav";
 
 function Home() {
   return (
     <div className="home-wrapper-main">
-      {/* <SideNav /> */}
       <section className="home-landing">
         <section className="landing-wrapper">
           <section className="landing-main-text">

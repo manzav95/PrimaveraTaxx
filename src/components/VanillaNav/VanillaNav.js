@@ -4,19 +4,12 @@ import { Link } from "react-router-dom";
 import Info from "../InfoHeader/InfoHeader";
 import SideBar from "../SideBar/SideBar";
 
-const sideBar = function() {
-  let burger = document.querySelector(".burger-toggle");
-  let sideNav = document.querySelector(".sidebar-wrapper");
+const toggleMobileButton = function() {
+  let burger = document.querySelector(".burger");
+  let mobileMenu = document.querySelector(".mobile-menu");
 
-  // document.addEventListener("click", function(e) {
-  //   e.preventDefault();
-
-  //   // if (!e.target.matches("#cheeseburger")) return;
-
-  //   sideNav.style.display = "block";
-
-  //   console.log(e.target);
-  // });
+  burger.classList.toggle("burger-opened");
+  mobileMenu.classList.toggle("mobile-menu-opened");
 };
 
 function VanillaNav() {
@@ -50,12 +43,18 @@ function VanillaNav() {
               </div>
             </li>
           </ul>
-          <div className="burger-toggle">
+          {/* <div className="burger-toggle">
             <input type="checkbox" id="cheeseburger" onClick={sideBar} />
             <span></span>
             <span></span>
             <span></span>
+          </div> */}
+          <div className="burger" id="burger" onClick={toggleMobileButton}>
+            <div className="burger-part"></div>
+            <div className="burger-part"></div>
+            <div className="burger-part"></div>
           </div>
+          <SideBar />
         </section>
         <section className="login-container">
           <ul className="login-links">

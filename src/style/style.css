@@ -56,6 +56,10 @@ body {
     width: 100%;
   }
 
+  .title-name {
+    margin: auto;
+  }
+
   .nav-links {
     display: none;
   }
@@ -66,12 +70,28 @@ body {
 
   .nav-section {
     width: 100%;
-    align-items: center;
     padding: 0px 30px;
     transition: ease-in 1s;
   }
 
   .burger-toggle {
     display: block;
+  }
+
+  .sidebar-wrapper{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+  }
+  .title-name {
+    font-size: 33px;
+    margin: auto;
   }
 }

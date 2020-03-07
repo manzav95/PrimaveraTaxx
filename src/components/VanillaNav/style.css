@@ -3,6 +3,7 @@
   top: 0;
   width: 100%;
   font-size: 16px;
+  z-index: 2;
 }
 
 .title-name {
@@ -94,9 +95,6 @@ link:hover {
   color: white;
 }
 
-.vanil-nav {
-  border: 1px solid black;
-}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -119,6 +117,7 @@ link:hover {
   min-width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  transition: 0.2s ease-out;
 }
 
 .dropdown:hover .dropdown-content {
@@ -147,10 +146,10 @@ link:hover {
   box-shadow: 0px 0px 5px 3px #000000;
 }
 
-.burger-toggle {
-  /* display: block; */
+/* .burger-toggle {
+  display: block;
   position: relative;
-  z-index: 1;
+  z-index: 5;
   display: none;
 }
 
@@ -163,9 +162,9 @@ link:hover {
   left: -40px;
   z-index: 10;
   opacity: 0;
-}
+} */
 
-.burger-toggle span {
+/* .burger-toggle span {
   display: block;
   height: 4px;
   width: 33px;
@@ -176,7 +175,7 @@ link:hover {
   transform-origin: 4px 0px;
   background-color: black;
 
-  /* transform-origin: 4px 0px; */
+  transform-origin: 4px 0px; 
 
   transition: transform 0.5s ease, opacity 0.5s;
 }
@@ -203,4 +202,49 @@ link:hover {
 
 .burger-toggle input:checked ~ span:nth-last-child(3) {
   transform: rotate(45deg) translate(0, 0px);
+} */
+
+.burger {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  z-index: 102;
+}
+
+.burger:hover {
+  cursor: pointer;
+}
+
+.burger-part {
+  width: 36px;
+  height: 4px;
+  margin-top: 8px;
+  border-radius: 15px;
+  background: black;
+  transition: 0.3s ease;
+}
+
+.burger-opened {
+  transform: 0.4s ease;
+  z-index: 101;
+}
+
+.burger-opened .burger-part {
+  background: white;
+}
+
+.burger-part:first-of-type {
+  margin-top: 0;
+}
+
+.burger-opened .burger-part:first-of-type {
+  transform: translateY(12px) rotate(45deg);
+}
+
+.burger-opened .burger-part:nth-child(2) {
+  display: none;
+}
+
+.burger-opened .burger-part:nth-child(3) {
+  transform: rotate(-45deg);
 }
