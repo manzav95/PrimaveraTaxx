@@ -1,3 +1,51 @@
-.contact-wrapper-main{
-min-height: 74.5vh;
+.contact-wrapper-main {
+  height: 85vh;
+  margin: 0;
+  background: #77a1d3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e684ae,
+    #79cbca,
+    #77a1d3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e684ae,
+    #79cbca,
+    #77a1d3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+}
+
+@keyframes subtleAni {
+  from {
+    transform: rotate(0) translateX(-20%);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+.main-contact {
+  background-color: #0005;
+  width: 80%;
+  margin: auto;
+  color: white;
+  padding: 20px;
+  animation: subtleAni 1s 1 0s ease-out;
+}
+
+.main-contact h3 {
+  font-weight: 700;
+}
+
+.hours {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hours h5 {
+  font-weight: 600;
 }

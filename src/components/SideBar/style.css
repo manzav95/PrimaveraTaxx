@@ -111,13 +111,31 @@
   width: 100%;
   text-align: center;
   font-size: 40px;
-  margin-bottom: 16px;
-  padding-bottom: 40px;
+  margin: 8px 0;
+  padding: 20px 0;
 }
 
 .menu-content {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 35%;
   transform: translate(-50%, -50%);
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.menu-content p {
+  margin: 0;
+}
+
+a:hover .link-right {
+  transform: translateX(-5px);
+}
+
+a:hover .link-left {
+  transform: translateX(5px);
 }

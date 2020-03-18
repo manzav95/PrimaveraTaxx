@@ -39,11 +39,6 @@ function About() {
           <p className="worker-name">Juan Jose Hernandez</p>
           <h6>CTEC and MBA</h6>
         </section>
-        <section className="worker">
-          <img src={jj} alt="juanjose" className="image" />
-          <p className="worker-name">Juan Jose Hernandez</p>
-          <h6>CTEC and MBA</h6>
-        </section>
       </section>
     </div>
   );

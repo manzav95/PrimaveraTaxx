@@ -78,7 +78,11 @@ body {
     display: block;
   }
 
-  .sidebar-wrapper{
+  .sidebar-wrapper {
+    display: block;
+  }
+
+  .burger {
     display: block;
   }
 }

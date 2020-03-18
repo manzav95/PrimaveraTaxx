@@ -45,7 +45,6 @@
 }
 
 .left-team {
-  border: 1px solid purple;
   display: flex;
   width: 650px;
   align-items: center;
@@ -57,13 +56,11 @@
 }
 
 .right-team {
-  border: 1px solid purple;
   display: flex;
   width: 650px;
   align-items: center;
 }
 .co-work-icons {
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: space-around;

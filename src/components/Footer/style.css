@@ -1,11 +1,9 @@
 .footer-main {
   height: 80px;
-  border-top: 5px solid #4aaaa5;
-  background-color: #00a86b;
+  background-color: #2D271F;
   position: sticky;
   width: 100%;
   bottom: 0;
-  margin-top: 20px;
 }
 
 .footer {
