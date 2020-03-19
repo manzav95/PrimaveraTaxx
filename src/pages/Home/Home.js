@@ -10,7 +10,6 @@ function Home() {
   return (
     <div className="home-wrapper-main">
       <section className="home-landing">
-        <div className="background">hi</div>
         <section className="landing-wrapper">
           <section className="landing-main-text">
             <p className="landing-header">Tax Season Has Arrived!</p>

@@ -35,6 +35,7 @@
   color: white;
   padding: 20px;
   animation: subtleAni 1s 1 0s ease-out;
+  margin-top: 40px;
 }
 
 .main-contact h3 {
@@ -44,8 +45,14 @@
 .hours {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .hours h5 {
   font-weight: 600;
+}
+
+.season-hours,
+normal-hours {
+  padding: 10px 10px;
 }
