@@ -33,14 +33,6 @@ body {
     height: 40px;
   }
 
-  .title-name {
-    font-size: 35px;
-  }
-
-  .login-container {
-    display: none;
-  }
-
   .infoHeader {
     padding: 8px 0px;
   }
@@ -56,46 +48,7 @@ body {
     width: 100%;
   }
 
-  .title-name {
-    margin: auto;
-  }
-
-  .nav-links {
-    display: none;
-  }
-
   .roll-image {
     padding: 10px 30px;
-  }
-
-  .nav-section {
-    width: 100%;
-    padding: 0px 30px;
-    transition: ease-in 1s;
-  }
-
-  .burger-toggle {
-    display: block;
-  }
-
-  .sidebar-wrapper {
-    display: block;
-  }
-
-  .burger {
-    display: block;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    height: 70px;
-    align-items: center;
-  }
-  .title-name {
-    font-size: 33px;
-    margin: auto;
   }
 }

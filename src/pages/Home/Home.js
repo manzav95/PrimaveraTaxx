@@ -4,21 +4,21 @@ import enrolled from "../../images/enrolled.jpg";
 import irs from "../../images/irs.jpg";
 import nna from "../../images/nna.jpg";
 import csea from "../../images/csea.jpg";
-import maria from "../../images/maria-ea.png";
 
 function Home() {
   return (
     <div className="home-wrapper-main">
       <section className="home-landing">
+        <div className="overlay"></div>
         <section className="landing-wrapper">
           <section className="landing-main-text">
-            <p className="landing-header">Tax Season Has Arrived!</p>
+            <p className="landing-header">It's More Than Just Taxes</p>
             <p className="info">
-              Click <span className="get-started">Get Started</span> to get in
-              contact with one of our Enrolled Agents Today!
+              <span className="get-started">Contact Us</span> to setup an
+              appointment today!
             </p>
             <a
-              id="learn-btn"
+              id="start-btn"
               href="https://login.atomanager.com/ATOM_PRI/default.aspx?redirect=ProspectMessage.aspx"
               target="_blank"
               rel="noopener noreferrer"

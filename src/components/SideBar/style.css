@@ -125,7 +125,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .menu-content p {
@@ -138,4 +137,10 @@ a:hover .link-right {
 
 a:hover .link-left {
   transform: translateX(5px);
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar-wrapper {
+    display: block;
+  }
 }

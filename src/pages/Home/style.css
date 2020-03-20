@@ -1,12 +1,22 @@
 .home-landing {
-  background-image: url("../../images/tax.jpg");
+  background-image: url("../../images/home-image2.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
-  height: 600px;
+  height: 80vh;
   position: relative;
 }
 
+.overlay {
+  position: absolute;
+  background-image: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+  background-image: linear-gradient(135deg, #fff6b7 10%, #f6416c 100%);
+  background-image: linear-gradient(135deg, #f05f57 10%, #360940 100%);
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
 
 .landing-wrapper {
   height: 100%;
@@ -18,8 +28,10 @@
 
 .landing-main-text {
   /* border: 1px solid black; */
-  width: 500px;
+  /* width: 500px; */
   text-align: center;
+  width: 100%;
+  z-index: 1;
 }
 
 .landing-header {
@@ -27,23 +39,30 @@
   font-weight: bold;
   color: white;
   text-shadow: 2px 2px 7px #000000;
+  width: 100%;
+  line-height: 70px;
 }
 
 .info {
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px #353535;
+  margin-bottom: 30px;
 }
 
-#learn-btn {
-  background-color: #2d271f;
+#start-btn {
+  background-color: transparent;
   color: white;
-  border: none;
+  border: 1px solid black;
   border-radius: 4px;
-  padding: 7px;
+  padding: 13px 32px;
+  font-size: 17px;
+  z-index: 2;
+  transition: background-color .4s ease-in;
 }
 
-#learn-btn:hover {
+#start-btn:hover {
   text-decoration: none;
+  background-color: #360940;
 }
 
 .icons-wrapper {
@@ -51,7 +70,7 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 30px;
+  margin: 40px auto;
 }
 
 .roll-image {
@@ -68,5 +87,5 @@
 }
 
 .get-started {
-  font-weight: 500;
+  font-weight: 550;
 }

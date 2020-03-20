@@ -3,6 +3,7 @@ import "./style.css";
 import { Link } from "react-router-dom";
 import Info from "../InfoHeader/InfoHeader";
 import SideBar from "../SideBar/SideBar";
+import logo from "../../images/primavera-logo.png";
 
 const toggleMobileButton = function() {
   let burger = document.querySelector(".burger");
@@ -19,6 +20,7 @@ function VanillaNav() {
         <section className="nav-section">
           <Link to="/" style={{ textDecoration: "none" }}>
             <h1 className="title-name">
+              {/* <img src={logo} alt=""/> */}
               <span id="word-primavera">Primavera</span> Taxx
             </h1>
           </Link>
@@ -58,26 +60,25 @@ function VanillaNav() {
         </section>
         <section className="login-container">
           <ul className="login-links">
-            <li className="linklinks">
+            <li className="linklinks login">
               <a
-                className="login-links"
+                className="login-link"
                 href="https://login.atomanager.com/ATOM_PRI/webinfodefault.aspx"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Returning Clients
+                Login
               </a>
             </li>
-            <h4 id="line-divide"> |</h4>
-            <li className="linklinks">
-              {/* {" "} */}
+            <h4 id="line-divide">|</h4>
+            <li className="linklinks signup">
               <a
-                className="login-links"
+                className="login-link"
                 href="https://login.atomanager.com/ATOM_PRI/default.aspx?redirect=ProspectMessage.aspx"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                New Clients
+                Sign Up
               </a>
             </li>
           </ul>
