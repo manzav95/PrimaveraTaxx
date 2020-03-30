@@ -20,21 +20,27 @@ function VanillaNav() {
         <section className="nav-section">
           <Link to="/" style={{ textDecoration: "none" }}>
             <h1 className="title-name">
-              {/* <img src={logo} alt=""/> */}
+              <img src={logo} alt="" style={{ width: "70px" }} />
               <span id="word-primavera">Primavera</span> Taxx
             </h1>
           </Link>
 
           <ul className="nav-links">
             <Link to="/about" style={{ textDecoration: "none" }}>
-              <li className="linklink">About</li>
+              <li className="linklink" id="about">
+                About
+              </li>
             </Link>
             <Link to="/contact" style={{ textDecoration: "none" }}>
-              <li className="linklink">Contact</li>
+              <li className="linklink" id="contact">
+                Contact
+              </li>
             </Link>
 
             <Link to="/reviews" style={{ textDecoration: "none" }}>
-              <li className="linklink">Reviews</li>
+              <li className="linklink" id="reviews">
+                Reviews
+              </li>
             </Link>
             <li className="dropdown linklink dropbtn">
               Resources
@@ -45,12 +51,6 @@ function VanillaNav() {
               </div>
             </li>
           </ul>
-          {/* <div className="burger-toggle">
-            <input type="checkbox" id="cheeseburger" onClick={sideBar} />
-            <span></span>
-            <span></span>
-            <span></span>
-          </div> */}
           <div className="burger" id="burger" onClick={toggleMobileButton}>
             <div className="burger-part"></div>
             <div className="burger-part"></div>
@@ -66,6 +66,7 @@ function VanillaNav() {
                 href="https://login.atomanager.com/ATOM_PRI/webinfodefault.aspx"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Existing Clients"
               >
                 Login
               </a>
@@ -77,6 +78,7 @@ function VanillaNav() {
                 href="https://login.atomanager.com/ATOM_PRI/default.aspx?redirect=ProspectMessage.aspx"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="New Clients"
               >
                 Sign Up
               </a>

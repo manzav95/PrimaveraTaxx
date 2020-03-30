@@ -131,13 +131,6 @@
   margin: 0;
 }
 
-a:hover .link-right {
-  transform: translateX(-5px);
-}
-
-a:hover .link-left {
-  transform: translateX(5px);
-}
 
 @media only screen and (max-width: 768px) {
   .sidebar-wrapper {

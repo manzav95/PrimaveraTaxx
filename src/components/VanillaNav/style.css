@@ -22,7 +22,6 @@
 .nav-wrapper {
   display: flex;
   justify-content: space-around;
-  background-color: #2d271f;
   background: transparent;
   padding: 10px 0;
   width: 100%;
@@ -31,6 +30,7 @@
 .nav-section {
   display: flex;
   justify-content: space-between;
+  width: 900px;
 }
 
 .nav-links {
@@ -66,25 +66,39 @@ link:hover {
 }
 
 .linklink:hover {
-  transform: translateY(-5px);
-  background-color: #2d271f;
+  /* animation: upAndDown 2s infinite 0s ease-out; */
+  /* background-color: #fcb500be; */
+  /* background-image: linear-gradient(
+    171.8deg,
+    rgba(5, 111, 146, 1) 13.5%,
+    rgb(6, 56, 83) 78.6%
+  ); */
+  background-position: left bottom;
 }
 
 .linklink {
-  padding: 0 30px;
+  padding: 10px 30px;
   color: white;
 
-  transition: transform 0.5s ease-in, background-color 0.5s ease-in;
-}
-
-.linklinks:hover {
-  transform: translateY(-5px);
+  transition: background 0.5s ease-in;
+  background: linear-gradient(to right, rgb(6, 57, 84, .5) 50%, transparent 50%);
+  background-size: 210% 100%;
+  background-position: right bottom;
 }
 
 .linklinks {
   width: 90px;
-  transition: transform 0.5s ease-in;
   text-align: right;
+}
+@keyframes upAndDown {
+  0%,
+  100% {
+    transform: translateY(-5px);
+  }
+
+  50% {
+    transform: translateY(5px);
+  }
 }
 
 .signup {
@@ -108,7 +122,6 @@ link:hover {
 .dropdown {
   position: relative;
   display: inline-block;
-  padding: 0px 30px;
 }
 
 .dropbtn {
@@ -127,7 +140,7 @@ link:hover {
   min-width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  transition: 0.2s ease-out;
+  transition: display 0.8s ease-out;
 }
 
 .dropdown:hover .dropdown-content {
@@ -158,7 +171,7 @@ link:hover {
 
 .burger {
   position: absolute;
-  top: 20px;
+  top: 16px;
   right: 50px;
   z-index: 102;
   display: none;
@@ -207,6 +220,10 @@ link:hover {
     font-size: 35px;
   }
 
+  .nav-section {
+    width: auto;
+  }
+
   .login {
     display: block;
     position: absolute;
@@ -217,6 +234,10 @@ link:hover {
   }
   #line-divide {
     display: none;
+  }
+
+  .vanil-nav {
+    margin-top: 0;
   }
 }
 
@@ -230,6 +251,11 @@ link:hover {
 
   .nav-links {
     display: none;
+  }
+
+  .nav-wrapper {
+    width: 100%;
+    justify-content: space-between;
   }
 
   .nav-section {
@@ -248,7 +274,20 @@ link:hover {
 
   .vanil-nav {
     position: sticky;
-    background-color: #2d271f;
+    background-image: linear-gradient(
+      171.8deg,
+      rgba(5, 111, 146, 1) 13.5%,
+      rgba(6, 57, 84, 1) 78.6%
+    );
+  }
+  .box-shadow:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 4px;
+    z-index: -1;
+    transform: scale(2);
+    box-shadow: 0px 1px 10px 2px #000000;
   }
 }
 

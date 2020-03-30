@@ -1,5 +1,5 @@
 .contact-wrapper-main {
-  height: 85vh;
+  height: 90vh;
   margin: 0;
   background: #77a1d3; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -35,7 +35,6 @@
   color: white;
   padding: 20px;
   animation: subtleAni 1s 1 0s ease-out;
-  margin-top: 100px;
 }
 
 .main-contact h3 {

@@ -12,7 +12,8 @@ function Home() {
         <div className="overlay"></div>
         <section className="landing-wrapper">
           <section className="landing-main-text">
-            <p className="landing-header">It's More Than Just Taxes</p>
+            {/* <p className="landing-header">It's More Than Just Taxes</p> */}
+            <p className="landing-header">This Ain't Your Mommas Tax Shop</p>
             <p className="info">
               <span className="get-started">Contact Us</span> to setup an
               appointment today!
@@ -44,19 +45,35 @@ function Home() {
         </div>
       </section>
 
-      {/* <section className="second-hom">
-        <section className="second-home">
-          <img src={maria} alt="maria l hernandez" width="450px" />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
-            debitis aut corporis repudiandae corrupti impedit harum ex hic odio
-            perspiciatis, quidem vitae enim soluta reiciendis eos aperiam!
-            Molestias laudantium ratione nulla omnis. Quaerat reprehenderit
-            saepe ullam voluptatum sed corporis culpa iure maiores? Vero est
-            totam odio deserunt quis laborum aliquam!
-          </p>
-        </section>
-      </section> */}
+      <div className="services-section">
+        <h2>Services offered</h2>
+        <div className="offered-services">
+          <div className="service">
+            <i class="fas fa-book-open"></i>
+            <p>Bookkeeping</p>
+          </div>
+          <div className="service">
+            <i class="fas fa-money-check-alt"></i>
+            <p>Payroll Services</p>
+          </div>
+          <div className="service">
+            <i class="fas fa-business-time"></i>
+            <p>Business Tax Return</p>
+          </div>
+          <div className="service">
+            <i class="fas fa-user-clock"></i>
+            <p>Individual Tax Return</p>
+          </div>
+          <div className="service">
+            <i class="fas fa-id-card"></i>
+            <p>ITIN Services</p>
+          </div>
+          <div className="service">
+            <i class="fas fa-file-signature"></i>
+            <p>Notary Public</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

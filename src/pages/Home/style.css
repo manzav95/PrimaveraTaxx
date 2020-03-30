@@ -1,5 +1,5 @@
 .home-landing {
-  background-image: url("../../images/home-image2.jpg");
+  background-image: url("../../images/home-image5.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -10,12 +10,22 @@
 
 .overlay {
   position: absolute;
-  background-image: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
-  background-image: linear-gradient(135deg, #fff6b7 10%, #f6416c 100%);
-  background-image: linear-gradient(135deg, #f05f57 10%, #360940 100%);
+  background-image: linear-gradient(135deg, #72edf2 10%, #4141ec 100%);
+  background-image: radial-gradient(
+    circle farthest-corner at 50.3% 44.5%,
+    rgba(116, 147, 179, 1) 0%,
+    rgba(62, 83, 104, 1) 100.2%
+  );
+  background-image: linear-gradient(
+    171.8deg,
+    rgba(5, 111, 146, 1) 13.5%,
+    rgb(6, 57, 84) 78.6%
+  ); /* background-image: linear-gradient(135deg, #fff6b7 10%, #f6416c 100%); */
+  /* background-image: linear-gradient(135deg, #f05f57 10%, #360940 100%); */
   height: 100%;
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.9;
+  background-attachment: fixed;
 }
 
 .landing-wrapper {
@@ -57,12 +67,18 @@
   padding: 13px 32px;
   font-size: 17px;
   z-index: 2;
-  transition: background-color .4s ease-in;
+  transition: background-color 0.25s ease;
 }
 
 #start-btn:hover {
   text-decoration: none;
-  background-color: #360940;
+  background-color: #fcb500c0;
+
+  /* background-image: linear-gradient(
+    171.8deg,
+    rgba(5, 111, 146, 1) 13.5%,
+    rgba(6, 57, 84, 1) 78.6%
+  ); */
 }
 
 .icons-wrapper {
@@ -88,4 +104,29 @@
 
 .get-started {
   font-weight: 550;
+}
+
+.services-section{
+  background-color: rgba(222, 184, 135, 0.308);
+}
+
+.offered-services{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.service{
+  background-color: rgba(0, 0, 0, 0.336);
+  width: 300px;
+  margin: 10px;
+  font-size: 50px;
+}
+
+.service p{
+  font-size: 20px;
 }
