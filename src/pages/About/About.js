@@ -6,20 +6,32 @@ import "./style.css";
 
 function About() {
   return (
-    <div className="about-wrapper-main">
-      <section className="about-owner">
-        <img src={home} alt="Maria L Hernandez - Primavera Taxx Founder" />
-        <section className="about-history">
-          <h1>About Us</h1>
-          <p>
-            Primavera Taxx was established in 2011 by founder Maria Luisa
-            Hernandez. It all started in a small office in Antioch, California
-            and we have now expanded to a 1000 sq. ft location on Hillcrest Ave
-            in the same city. We have constantly increased our customer base and
-            this has been mainly due to word of mouth recommendations. Our main
-            objective is to serve our clients professionally and efficiently.
-          </p>
+    <div className="about-wrapper">
+      <section className="about-main">
+        <div className="about-overlay"></div>
+        <section className="a-wrapper">
+          <section className="about-main-text">
+            <h1 className="about-header">About Us</h1>
+          </section>
         </section>
+        {/* <section className="about-info">
+          <p>
+            Primavera Taxx was founded on the fundamental basis that our clients
+            deserve to be treated as family and not just another tax filing
+            process. We’re here to provide the TAX HELP you deserve and ensure
+            you a friendly and secure environment were you can leave feeling
+            relieved from any TAX related event.
+          </p>
+        </section> */}
+      </section>
+      <section className="about-info">
+        <p>
+          Primavera Taxx was founded on the fundamental basis that our clients
+          deserve to be treated as family and not just another tax filing
+          process. We’re here to provide the TAX HELP you deserve and ensure you
+          a friendly and secure environment were you can leave feeling relieved
+          from any TAX related event.
+        </p>
       </section>
     </div>
   );

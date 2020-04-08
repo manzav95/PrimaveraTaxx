@@ -1,32 +1,59 @@
-.about-wrapper-main {
-  display: flex;
+.about-wrapper {
   width: 100%;
   height: auto;
   border: 1px solid black;
 }
 
-.about-owner {
-  width: 82%;
-  border: 1px solid red;
-  display: flex;
-  margin: 40px auto 40px auto;
-  justify-content: space-between;
-}
-
-.about-owner img {
-  width: 100%;
+.about-main {
+  background-image: url("../../images/home-image6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 65vh;
   position: relative;
 }
 
-.about-history {
-  border: 1px solid green;
-  width: 82%;
+.about-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-attachment: fixed;
+  background-image: radial-gradient(
+    circle farthest-corner at 50.3% 44.5%,
+    rgb(44, 83, 99) 50%,
+    rgb(0, 0, 0) 90%
+  );
+  background-image: linear-gradient(
+    171.8deg,
+    rgba(5, 111, 146, 1) 13.5%,
+    rgb(6, 57, 84) 78.6%
+  );
+  opacity: 0.9;
+}
+
+.a-wrapper {
+  height: 100%;
+  padding: 0px 70px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 18%;
-  background-color: rgba(65, 65, 65, 0.329);
+}
+
+.about-main-text {
+  /* border: 1px solid black; */
+  /* width: 500px; */
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.about-header {
+  font-size: 65px;
+  font-weight: bold;
   color: white;
+  text-shadow: 2px 2px 7px #000000;
+  width: 100%;
+  line-height: 70px;
+  pointer-events: none;
 }

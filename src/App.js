@@ -31,7 +31,6 @@ function App() {
     <div className="App">
       <Router>
         <ScrollToTop>
-          {/* <SideBar /> */}
           <Info />
           <VanillaNav />
 

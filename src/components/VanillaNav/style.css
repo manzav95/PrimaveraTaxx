@@ -6,6 +6,7 @@
   z-index: 2;
   background: transparent;
   margin-top: 30px;
+  font-family: sans-serif;
 }
 
 .title-name {
@@ -81,7 +82,11 @@ link:hover {
   color: white;
 
   transition: background 0.5s ease-in;
-  background: linear-gradient(to right, rgb(6, 57, 84, .5) 50%, transparent 50%);
+  background: linear-gradient(
+    to right,
+    rgb(6, 57, 84, 0.5) 50%,
+    transparent 50%
+  );
   background-size: 210% 100%;
   background-position: right bottom;
 }
@@ -112,7 +117,9 @@ link:hover {
 
 #line-divide {
   color: white;
+  pointer-events: none;
 }
+
 
 .login-link:hover {
   text-decoration: none;
@@ -136,11 +143,13 @@ link:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: gray;
-  min-width: 150px;
+  background-color: rgba(6, 57, 84, 0.753);
+  min-width: 450px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   transition: display 0.8s ease-out;
+  left: 0;
+  top: 45px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -152,6 +161,8 @@ link:hover {
   color: white;
   text-decoration: none;
   display: block;
+  font-size: 20px;
+  margin: 20px;
 }
 
 .dropdown-content a:hover {
