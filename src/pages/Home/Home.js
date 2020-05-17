@@ -12,7 +12,9 @@ function Home() {
         <div className="overlay"></div>
         <section className="landing-wrapper">
           <section className="landing-main-text">
-            <h1   className="landing-header">When It Comes To Taxes, We Take It Personal</h1>
+            <h1 className="landing-header">
+              It's More Than Just Taxes
+            </h1>
             {/* <p className="landing-header">We Take It Personal.</p> */}
             {/* <p className="info">
               <span className="get-started">Contact Us</span> to setup an
@@ -34,16 +36,20 @@ function Home() {
       </section>
       <section className="icons-wrapper">
         <div className="roll-image">
-          <img src={irs} width="100px" />
+          <img src={irs} width="100px" alt="irs provider" />
         </div>
         <div className="roll-image enrolled">
-          <img src={enrolled} width="230px" />
+          <img src={enrolled} width="230px" alt="enrolled agent" />
         </div>
         <div className="roll-image">
-          <img src={csea} width="150px" />
+          <img
+            src={csea}
+            width="150px"
+            alt="california society of enrolled agents"
+          />
         </div>
         <div className="roll-image nna">
-          <img src={nna} width="200px" />
+          <img src={nna} width="200px" alt="national notary association" />
         </div>
       </section>
 
