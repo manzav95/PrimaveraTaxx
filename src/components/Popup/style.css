@@ -1,0 +1,39 @@
+body {
+  overflow: hidden;
+}
+
+.popup-wrapper {
+  position: fixed;
+  top: -20px;
+  height: 110%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.424);
+  z-index: 4;
+}
+
+.main-popup {
+  position: fixed;
+  top: 20%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  background: rgb(190, 190, 190);
+}
+
+.close-section {
+  position: relative;
+  width: 98%;
+  text-align: end;
+  font-size: 30px;
+}
+
+.body-message {
+  font-size: 20px;
+}
+
+.body-message p {
+  margin: 15px 20px;
+}

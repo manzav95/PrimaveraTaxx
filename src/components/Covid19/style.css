@@ -1,0 +1,11 @@
+.covid-header {
+  display: flex;
+  font-size: 16px;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+p{
+  margin-bottom: auto;
+}

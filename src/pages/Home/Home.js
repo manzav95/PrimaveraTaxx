@@ -1,20 +1,25 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./style.css";
 import enrolled from "../../images/enrolled.jpg";
 import irs from "../../images/irs.jpg";
 import nna from "../../images/nna.jpg";
 import csea from "../../images/csea.jpg";
+import Popup from "../../components/Popup/Popup";
 
 function Home() {
   return (
     <div className="home-wrapper-main">
+      <Helmet>
+        <title>Antioch, CA | Primavera Taxx</title>
+      </Helmet>
+
+      <Popup />
       <section className="home-landing">
         <div className="overlay"></div>
         <section className="landing-wrapper">
           <section className="landing-main-text">
-            <h1 className="landing-header">
-              It's More Than Just Taxes
-            </h1>
+            <h1 className="landing-header">It's More Than Just Taxes</h1>
             {/* <p className="landing-header">We Take It Personal.</p> */}
             {/* <p className="info">
               <span className="get-started">Contact Us</span> to setup an

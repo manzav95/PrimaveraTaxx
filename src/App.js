@@ -8,16 +8,17 @@ import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
 import VanillaNav from "./components/VanillaNav/VanillaNav";
 import Info from "./components/InfoHeader/InfoHeader";
+import Covid from "./components/Covid19/Covid";
 import ScrollToTop from "react-router-scroll-top";
 import Footer from "./components/Footer/Footer";
 import SideBar from "./components/SideBar/SideBar";
 import "./style/style.css";
 
-const sideBar = function() {
+const sideBar = function () {
   let burger = document.querySelector(".burger-toggle");
   let sideNav = document.querySelector(".sidebar-wrapper");
 
-  document.addEventListener("click", function(e) {
+  document.addEventListener("click", function (e) {
     if (!e.target.matches(".burger-toggle")) return;
 
     e.preventDefault();
@@ -31,6 +32,7 @@ function App() {
     <div className="App">
       <Router>
         <ScrollToTop>
+          <Covid />
           <Info />
           <VanillaNav />
 

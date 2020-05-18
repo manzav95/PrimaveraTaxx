@@ -6,7 +6,6 @@
   background-color: white;
   color: black;
   width: 100%;
-  display: none;
 }
 
 .infoContact {
@@ -99,9 +98,12 @@ li a {
 
 .fa-times {
   position: relative;
-  right: 15px;
+  /* right: 15px; */
   transition: display 0.5s ease-in;
-  display: none;
+}
+
+.fa-times:hover{
+  cursor: pointer;
 }
 
 .infoHeader input:checked ~ .infoHeader {

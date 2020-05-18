@@ -1,5 +1,6 @@
 .home-wrapper-main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
 }
 
 .home-landing {
@@ -10,6 +11,7 @@
   background-size: cover;
   height: 80vh;
   position: relative;
+  overflow: hidden;
 }
 
 .overlay {

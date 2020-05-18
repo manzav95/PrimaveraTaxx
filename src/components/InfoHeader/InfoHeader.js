@@ -2,6 +2,13 @@ import React from "react";
 import "./style.css";
 // import SocialIcon from "react-social-icons";
 
+const removeInfo = function () {
+  let infoBar = document.querySelector(".infoHeader");
+  let closeBtn = document.getElementById("close-button");
+
+  infoBar.style.display = "none";
+};
+
 function Info() {
   return (
     <div className="infoHeader">
@@ -39,8 +46,6 @@ function Info() {
             </span>
           </li>
         </ul>
-        <input type="checkbox" id="info-checkbox" />
-        <i className="fas fa-times info-x"></i>
       </section>
       <section className="website-links">
         <ul className="site-links">
@@ -71,6 +76,11 @@ function Info() {
               <i className="fab fa-linkedin-in fa-2x"></i>
             </a>
           </li>
+          <i
+            className="fas fa-times info-x"
+            id="close-button"
+            onClick={removeInfo}
+          ></i>
         </ul>
       </section>
     </div>

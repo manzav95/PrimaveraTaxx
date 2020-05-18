@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import maria from "../../images/maria-ea.png";
 import jj from "../../images/juanjose.jpeg";
 import home from "../../images/home-image.jpg";
@@ -7,6 +8,9 @@ import "./style.css";
 function About() {
   return (
     <div className="about-wrapper">
+      <Helmet>
+        <title>About | Primavera Taxx</title>
+      </Helmet>
       <section className="about-main">
         <div className="about-overlay"></div>
         <section className="a-wrapper">

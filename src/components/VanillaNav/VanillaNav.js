@@ -5,7 +5,7 @@ import Info from "../InfoHeader/InfoHeader";
 import SideBar from "../SideBar/SideBar";
 import logo from "../../images/primavera-logo.png";
 
-const toggleMobileButton = function() {
+const toggleMobileButton = function () {
   let burger = document.querySelector(".burger");
   let mobileMenu = document.querySelector(".mobile-menu");
 
@@ -20,7 +20,7 @@ function VanillaNav() {
         <section className="nav-section">
           <Link to="/" style={{ textDecoration: "none" }}>
             <h1 className="title-name">
-              <img src={logo} alt="" style={{ width: "70px" }} />
+              {/* <img src={logo} alt="" style={{ width: "70px" }} /> */}
               <span id="word-primavera">Primavera</span> Taxx
             </h1>
           </Link>
@@ -45,8 +45,8 @@ function VanillaNav() {
             <li className="dropdown linklink dropbtn">
               Resources
               <div className="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
+                <a href="#">Pay IRS</a>
+                <a href="https://covid19.ca.gov/taxes/">COVID News</a>
                 <a href="#">Link 3</a>
               </div>
             </li>
