@@ -9,6 +9,10 @@ body {
   width: 100%;
   background: rgba(0, 0, 0, 0.424);
   z-index: 4;
+  display: block;
+  opacity: 1;
+  animation: fadeIn 1s forwards;
+  transition: position 0.2s, visibility 0.2s;
 }
 
 .main-popup {
@@ -21,6 +25,23 @@ body {
   right: 0;
   z-index: 3;
   background: rgb(190, 190, 190);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 .close-section {

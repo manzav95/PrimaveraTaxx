@@ -33,7 +33,7 @@ function App() {
       <Router>
         <ScrollToTop>
           <Covid />
-          <Info />
+          {/* <Info /> */}
           <VanillaNav />
 
           <Switch>

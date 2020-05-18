@@ -3,7 +3,7 @@ import "./style.css";
 // import SocialIcon from "react-social-icons";
 
 const removeInfo = function () {
-  let infoBar = document.querySelector(".infoHeader");
+  let infoBar = document.querySelector(".info-wrapper");
   let closeBtn = document.getElementById("close-button");
 
   infoBar.style.display = "none";
@@ -11,7 +11,7 @@ const removeInfo = function () {
 
 function Info() {
   return (
-    <div className="infoHeader">
+    <div className="info-wrapper">
       <section className="info-links">
         <ul className="list">
           <li>

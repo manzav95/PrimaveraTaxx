@@ -3,16 +3,21 @@ import "./style.css";
 
 const closePopup = function () {
   let popupWindow = document.querySelector(".popup-wrapper");
+  let popup = document.querySelector("#popup");
   let body = document.querySelector("body");
 
-  popupWindow.style.display = "none";
+  popupWindow.style.position = "absolute";
+  popupWindow.style.visibility = "hidden";
+
+  popupWindow.style.animation = "fadeOut 1s forwards";
+
   body.style.overflow = "auto";
 };
 
 export default class Popup extends Component {
   render() {
     return (
-      <div>
+      <div id="popup">
         <section className="popup-wrapper">
           <section className="main-popup">
             <div className="close-section">
