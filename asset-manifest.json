@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/PrimaveraTaxx/static/css/main.0d354621.chunk.css",
+    "main.js": "/PrimaveraTaxx/static/js/main.490d42f9.chunk.js",
+    "main.js.map": "/PrimaveraTaxx/static/js/main.490d42f9.chunk.js.map",
+    "runtime-main.js": "/PrimaveraTaxx/static/js/runtime-main.a1ba98a1.js",
+    "runtime-main.js.map": "/PrimaveraTaxx/static/js/runtime-main.a1ba98a1.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/PrimaveraTaxx/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.5a251054.chunk.js": "/PrimaveraTaxx/static/js/2.5a251054.chunk.js",
+    "static/js/2.5a251054.chunk.js.map": "/PrimaveraTaxx/static/js/2.5a251054.chunk.js.map",
+    "index.html": "/PrimaveraTaxx/index.html",
+    "precache-manifest.7bdbf11b0708433d628c1fba34e5296a.js": "/PrimaveraTaxx/precache-manifest.7bdbf11b0708433d628c1fba34e5296a.js",
+    "service-worker.js": "/PrimaveraTaxx/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/PrimaveraTaxx/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.0d354621.chunk.css.map": "/PrimaveraTaxx/static/css/main.0d354621.chunk.css.map",
+    "static/media/csea.jpg": "/PrimaveraTaxx/static/media/csea.9ffbb6e2.jpg",
+    "static/media/enrolled.jpg": "/PrimaveraTaxx/static/media/enrolled.f6221f21.jpg",
+    "static/media/home-image.jpg": "/PrimaveraTaxx/static/media/home-image.91b361bb.jpg",
+    "static/media/style.css": "/PrimaveraTaxx/static/media/home-image6.bc440d7f.jpg",
+    "static/media/irs.jpg": "/PrimaveraTaxx/static/media/irs.9178e6fc.jpg",
+    "static/media/juanjose.jpeg": "/PrimaveraTaxx/static/media/juanjose.6e11f505.jpeg",
+    "static/media/maria-ea.png": "/PrimaveraTaxx/static/media/maria-ea.8ccd82a8.png",
+    "static/media/nna.jpg": "/PrimaveraTaxx/static/media/nna.2a711774.jpg",
+    "static/media/primavera-logo.png": "/PrimaveraTaxx/static/media/primavera-logo.e809e0a8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1ba98a1.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.5a251054.chunk.js",
+    "static/css/main.0d354621.chunk.css",
+    "static/js/main.490d42f9.chunk.js"
+  ]
+}
