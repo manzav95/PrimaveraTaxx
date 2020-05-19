@@ -18,7 +18,7 @@ export default class Popup extends Component {
   render() {
     return (
       <div id="popup">
-        <section className="popup-wrapper">
+        <section className="popup-wrapper" onClick={closePopup}>
           <section className="main-popup">
             <div className="close-section">
               <i
@@ -39,16 +39,27 @@ export default class Popup extends Component {
                 hacer llegar sus documentos de una manera confiable y segura.
               </p>
               <p>
-                1- Puede descargar en su celular la aplicación TaxPass (link)
-                Usando el código de oficina G4MLBWLV, (asegúrese que ve el
+                1- Puede descargar en su celular la aplicación{" "}
+                <a
+                  id="taxpass-link"
+                  href="https://apps.apple.com/us/app/taxpass/id1256036789"
+                  target="_blank"
+                  rel="noopener noreference"
+                  title="Tax Pass"
+                >
+                  TaxPass
+                </a>
+                . Usando el código de oficina{" "}
+                <span id="taxpass-code">'G4MLBWLV'</span>, (asegúrese que ve el
                 nombre de Primavera Taxx) ( la información llega directamente a
                 su archivo y el proceso de su declaración comienza casi
                 automáticamente)
               </p>
               <p>
-                2-Puede enviarnos por FAX sus documentos al 855 751-5543,
-                (comenzaremos a trabajar en su declaración de impuestos en el
-                orden que los recibamos)
+                2-Puede enviarnos por FAX sus documentos al{" "}
+                <span id="fax-number">(855)751-5543</span>, (comenzaremos a
+                trabajar en su declaración de impuestos en el orden que los
+                recibamos)
               </p>{" "}
               <p>
                 3-Puede pasar a la oficina y dejarlos en un sobre o bolsa de
@@ -57,8 +68,10 @@ export default class Popup extends Component {
               </p>{" "}
               <p>
                 Siempre puede enviarnos sus preguntas por texto de una manera
-                segura al 925 248-4166 o nos puede dejar mensaje de voz en el
-                925 550-1986.
+                segura al
+                <a href="sms:+19252484166"> (925)248-4166 </a>o nos puede dejar
+                mensaje de voz en el
+                <a href="tel:+19255501986"> (925)550-1986 </a>.
               </p>
             </div>
           </section>

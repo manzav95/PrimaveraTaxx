@@ -7,8 +7,8 @@ body {
   top: -20px;
   height: 110%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.424);
-  z-index: 4;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
   display: block;
   opacity: 1;
   animation: fadeIn 1s forwards;
@@ -17,14 +17,16 @@ body {
 
 .main-popup {
   position: fixed;
-  top: 20%;
+  top: 15%;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
   z-index: 3;
-  background: rgb(190, 190, 190);
+  background: rgb(211, 211, 211);
+  border-radius: 5px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @keyframes fadeIn {
@@ -57,4 +59,20 @@ body {
 
 .body-message p {
   margin: 15px 20px;
+  text-align: left;
+}
+
+.body-message a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+#fax-number {
+  font-weight: 700;
+}
+
+#taxpass-code{
+  font-size: 20px;
+  font-weight: lighter;
 }
