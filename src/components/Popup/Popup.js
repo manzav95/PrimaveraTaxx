@@ -3,7 +3,6 @@ import "./style.css";
 
 const closePopup = function () {
   let popupWindow = document.querySelector(".popup-wrapper");
-  let popup = document.querySelector("#popup");
   let body = document.querySelector("body");
 
   popupWindow.style.position = "absolute";
@@ -29,49 +28,60 @@ export default class Popup extends Component {
             </div>
 
             <header>
-              <h1>COVID-19 News</h1>
+              <h1>COVID-19 Update</h1>
             </header>
             <div className="body-message">
               <p>
-                COVID-19- Su salud y seguridad es nuestra prioridad. Seguimos
-                preparando sus declaraciones de impuesto pero estamos evitando
-                el contacto físico. Tenemos varias opciones para que nos pueda
-                hacer llegar sus documentos de una manera confiable y segura.
+                COVID-19- Your health and safety is our priority. We continue to
+                prepare your tax returns but we are avoiding physical contact.
+                We have several options so that you can send us your documents
+                in a reliable and secure way.
               </p>
               <p>
-                1- Puede descargar en su celular la aplicación{" "}
+                1- You can download the{" "}
                 <a
+                  className="italics"
                   id="taxpass-link"
                   href="https://apps.apple.com/us/app/taxpass/id1256036789"
                   target="_blank"
-                  rel="noopener noreference"
+                  rel="noopener noreferrer"
                   title="Tax Pass"
                 >
                   TaxPass
-                </a>
-                . Usando el código de oficina{" "}
-                <span id="taxpass-code">'G4MLBWLV'</span>, (asegúrese que ve el
-                nombre de Primavera Taxx) ( la información llega directamente a
-                su archivo y el proceso de su declaración comienza casi
-                automáticamente)
+                </a>{" "}
+                application and Register using the code{" "}
+                <span className="italics"> 'G4MLBWLV'</span> to get access to
+                Primavera Taxx. (Make sure you see the name 'Primavera Taxx')
+                The information you input will go straight into your file and
+                the process of your return will be almost automatically.
               </p>
               <p>
-                2-Puede enviarnos por FAX sus documentos al{" "}
-                <span id="fax-number">(855)751-5543</span>, (comenzaremos a
-                trabajar en su declaración de impuestos en el orden que los
-                recibamos)
-              </p>{" "}
+                2-You can fax your documents over to us at{" "}
+                <span className="italics" id="fax-number">
+                  (855) 751-5543
+                </span>
+                . We will start working on your tax return in the order we
+                recieve them.
+              </p>
               <p>
-                3-Puede pasar a la oficina y dejarlos en un sobre o bolsa de
-                papel (dejaremos transcurrir 24 hrs antes de tocar los
-                documentos, si los trae en bolsa de plástico esperaremos 72 hrs)
-              </p>{" "}
+                3-You can stop by the office to drop off documents in an
+                envelope or bag. (Keep in mind, we will allow{" "}
+                <span className="italics">24-72</span> hours to pass before
+                handling any documents to be safe and preventing the spread of
+                COVID-19)
+              </p>
               <p>
-                Siempre puede enviarnos sus preguntas por texto de una manera
-                segura al
-                <a href="sms:+19252484166"> (925)248-4166 </a>o nos puede dejar
-                mensaje de voz en el
-                <a href="tel:+19255501986"> (925)550-1986 </a>.
+                For any questions of concerns, feel free to contact us through text at
+                <a href="sms:+19252484166" className="italics">
+                  {" "}
+                  (925) 248-4166{" "}
+                </a>
+                or by phone at
+                <a href="tel:+19255501986" className="italics">
+                  {" "}
+                  (925) 550-1986{" "}
+                </a>
+                .
               </p>
             </div>
           </section>

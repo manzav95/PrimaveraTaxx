@@ -4,7 +4,6 @@ import "./style.css";
 
 const removeCovid = function () {
   let covidBar = document.querySelector(".covid-header");
-  let closeCovid = document.getElementById("covid-button");
 
   setTimeout(function () {
     covidBar.classList.add("animation-class");
@@ -22,7 +21,7 @@ function Covid() {
       <p>
         <span>COVID-19 Response:</span> We will be temporarily moving online
         until further notice. Please send in all documents electronically or fax
-        documents and photos to (925)248-4166. Thank You.
+        documents and photos to (925) 248-4166. Thank You.
       </p>
       <i
         className="fas fa-times info-x"

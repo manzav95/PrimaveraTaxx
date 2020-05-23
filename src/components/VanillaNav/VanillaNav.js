@@ -1,9 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
-import Info from "../InfoHeader/InfoHeader";
 import SideBar from "../SideBar/SideBar";
-import logo from "../../images/primavera-logo.png";
 
 const toggleMobileButton = function () {
   let burger = document.querySelector(".burger");
@@ -45,9 +43,9 @@ function VanillaNav() {
             <li className="dropdown linklink dropbtn">
               Resources
               <div className="dropdown-content">
-                <a href="#">Pay IRS</a>
+                <a href="https://www.irs.gov/payments">Pay IRS</a>
                 <a href="https://covid19.ca.gov/taxes/">COVID News</a>
-                <a href="#">Link 3</a>
+                <a href="https://www.irs.gov/payments">Link 3</a>
               </div>
             </li>
           </ul>

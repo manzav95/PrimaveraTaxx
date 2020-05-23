@@ -118,8 +118,8 @@ link:hover {
 #line-divide {
   color: white;
   pointer-events: none;
+  padding: 4px;
 }
-
 
 .login-link:hover {
   text-decoration: none;

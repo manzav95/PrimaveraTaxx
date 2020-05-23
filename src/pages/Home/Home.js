@@ -16,7 +16,8 @@ function Home() {
 
       <Popup />
       <section className="home-landing">
-        <div className="overlay"></div>
+        {" "}
+        <div className="landing-overlay"></div>
         <section className="landing-wrapper">
           <section className="landing-main-text">
             <h1 className="landing-header">It's More Than Just Taxes</h1>

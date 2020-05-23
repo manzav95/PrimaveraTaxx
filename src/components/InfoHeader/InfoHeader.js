@@ -4,7 +4,6 @@ import "./style.css";
 
 const removeInfo = function () {
   let infoBar = document.querySelector(".info-wrapper");
-  let closeBtn = document.getElementById("close-button");
 
   infoBar.style.display = "none";
 };
