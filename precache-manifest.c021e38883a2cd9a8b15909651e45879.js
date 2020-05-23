@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d8af443f47c30d52f45b1f1cb6cb9915",
+    "revision": "939646d5ebf003606a6361b5464946b9",
     "url": "/PrimaveraTaxx/index.html"
   },
   {
-    "revision": "24977f4af38298a62f92",
+    "revision": "5cc901efe2b4a16992f9",
     "url": "/PrimaveraTaxx/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "9f1a4e4eedab7194d677",
-    "url": "/PrimaveraTaxx/static/css/main.0d354621.chunk.css"
+    "revision": "f7c8f623cfeffc1074e2",
+    "url": "/PrimaveraTaxx/static/css/main.83480926.chunk.css"
   },
   {
-    "revision": "24977f4af38298a62f92",
-    "url": "/PrimaveraTaxx/static/js/2.5a251054.chunk.js"
+    "revision": "5cc901efe2b4a16992f9",
+    "url": "/PrimaveraTaxx/static/js/2.388fc9f2.chunk.js"
   },
   {
-    "revision": "9f1a4e4eedab7194d677",
-    "url": "/PrimaveraTaxx/static/js/main.490d42f9.chunk.js"
+    "revision": "f7c8f623cfeffc1074e2",
+    "url": "/PrimaveraTaxx/static/js/main.0f0d3806.chunk.js"
   },
   {
     "revision": "23d2d6a481e52d8ee056",
@@ -32,10 +32,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PrimaveraTaxx/static/media/enrolled.f6221f21.jpg"
   },
   {
-    "revision": "91b361bb19cbd381994c77671b413456",
-    "url": "/PrimaveraTaxx/static/media/home-image.91b361bb.jpg"
-  },
-  {
     "revision": "37bcecea6c4f8f0f9e0174b7fb4cfa22",
     "url": "/PrimaveraTaxx/static/media/home-image5.37bcecea.jpg"
   },
@@ -48,19 +44,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PrimaveraTaxx/static/media/irs.9178e6fc.jpg"
   },
   {
-    "revision": "6e11f50552fabad3782c035f3edba549",
-    "url": "/PrimaveraTaxx/static/media/juanjose.6e11f505.jpeg"
-  },
-  {
-    "revision": "8ccd82a8feb2de9d01d7cc3a727db33d",
-    "url": "/PrimaveraTaxx/static/media/maria-ea.8ccd82a8.png"
-  },
-  {
     "revision": "2a711774f0f5e16e6a96c0ad26ab3952",
     "url": "/PrimaveraTaxx/static/media/nna.2a711774.jpg"
-  },
-  {
-    "revision": "e809e0a816735ab9b11837527e6c611c",
-    "url": "/PrimaveraTaxx/static/media/primavera-logo.e809e0a8.png"
   }
 ]);
