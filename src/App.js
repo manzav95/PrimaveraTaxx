@@ -10,7 +10,7 @@ import Covid from "./components/Covid19/Covid";
 import ScrollToTop from "react-router-scroll-top";
 import Footer from "./components/Footer/Footer";
 import "./style/style.css";
-
+import Reviews from "./pages/Reviews/Reviews";
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
+            <Route path="/reviews" component={Reviews} />
           </Switch>
           <Footer />
         </ScrollToTop>
