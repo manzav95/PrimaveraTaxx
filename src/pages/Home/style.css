@@ -16,7 +16,6 @@
 
 .landing-overlay {
   position: absolute;
-  background-image: linear-gradient(135deg, #72edf2 10%, #4141ec 100%);
   background-image: linear-gradient(
     171.8deg,
     rgba(5, 111, 146, 1) 13.5%,
@@ -173,6 +172,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+  
+  
 }
 @media only screen and (max-width: 400p) {
 

@@ -72,6 +72,26 @@ body {
   font-weight: 700;
 }
 
+#popup-button:hover {
+  cursor: pointer;
+}
+
 .italics {
   font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-popup header h1 {
+    font-size: 2em;
+  }
+
+  .body-message {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 450p) {
+  .body-message p {
+    line-height: 1.2;
+  }
 }
