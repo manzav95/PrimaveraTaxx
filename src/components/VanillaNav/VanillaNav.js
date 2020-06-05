@@ -11,6 +11,12 @@ const toggleMobileButton = function () {
   mobileMenu.classList.toggle("mobile-menu-opened");
 };
 
+const closeMobileNav = function () {
+  let mobileMenu = document.querySelector(".mobile-menu");
+
+  mobileMenu.classList.toggle("mobile-menu-opened");
+};
+
 function VanillaNav() {
   return (
     <nav className="vanil-nav box-shadow">

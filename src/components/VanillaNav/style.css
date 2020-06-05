@@ -276,7 +276,7 @@ link:hover {
   }
 
   .burger-toggle {
-    display: block;
+    display: absolute;
   }
 
   .burger {
