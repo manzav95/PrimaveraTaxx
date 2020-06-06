@@ -4,7 +4,7 @@
 }
 
 .home-landing {
-  background-image: url("../../images/home-image5.jpg");
+  background-image: url('../../images/home-image5.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -114,7 +114,6 @@
   display: flex;
   margin-bottom: 50px;
   flex-wrap: wrap;
-
 }
 
 .services-info {
@@ -132,7 +131,7 @@
 .services-info h2 {
   /* font-size: 20px; */
   width: 75%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-bottom: solid 3px black;
   margin-bottom: 20px;
 }
@@ -172,10 +171,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-
-  
-  
 }
 @media only screen and (max-width: 400p) {
-
 }

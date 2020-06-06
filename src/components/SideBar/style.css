@@ -15,7 +15,7 @@
 }
 
 .mobile-menu-opened {
-  left: 30%;
+  left: 0%;
 }
 
 .mobile-menu a {
@@ -32,7 +32,7 @@
 .menu-content {
   position: absolute;
   top: 50%;
-  left: 35%;
+  left: 50%;
   transform: translate(-50%, -50%);
   height: 80%;
   display: flex;

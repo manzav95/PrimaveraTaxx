@@ -1,66 +1,66 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import "./style.css";
-import enrolled from "../../images/enrolled.jpg";
-import irs from "../../images/irs.jpg";
-import nna from "../../images/nna.jpg";
-import csea from "../../images/csea.jpg";
-import Popup from "../../components/Popup/Popup";
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import './style.css';
+import enrolled from '../../images/enrolled.jpg';
+import irs from '../../images/irs.jpg';
+import nna from '../../images/nna.jpg';
+import csea from '../../images/csea.jpg';
+import Popup from '../../components/Popup/Popup';
 
 function Home() {
   return (
-    <div className="home-wrapper-main">
+    <div className='home-wrapper-main'>
       <Helmet>
         <title>Antioch, CA | Primavera Taxx</title>
       </Helmet>
 
       <Popup />
-      <section className="home-landing">
-        {" "}
-        <div className="landing-overlay"></div>
-        <section className="landing-wrapper">
-          <section className="landing-main-text">
-            <h1 className="landing-header">It's More Than Just Taxes</h1>
+      <section className='home-landing'>
+        {' '}
+        <div className='landing-overlay'></div>
+        <section className='landing-wrapper'>
+          <section className='landing-main-text'>
+            <h1 className='landing-header'>It's More Than Just Taxes</h1>
             {/* <p className="landing-header">We Take It Personal.</p> */}
             {/* <p className="info">
               <span className="get-started">Contact Us</span> to setup an
               appointment today!
             </p> */}
-            <p className="info">
+            <p className='info'>
               Maximized Tax Return, Done Right The First Time
             </p>
             <a
-              id="start-btn"
-              href="https://login.atomanager.com/ATOM_PRI/default.aspx?redirect=ProspectMessage.aspx"
-              target="_blank"
-              rel="noopener noreferrer"
+              id='start-btn'
+              href='https://login.atomanager.com/ATOM_PRI/default.aspx?redirect=ProspectMessage.aspx'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               Get Started
             </a>
           </section>
         </section>
       </section>
-      <section className="icons-wrapper">
-        <div className="roll-image">
-          <img src={irs} width="100px" alt="irs provider" />
+      <section className='icons-wrapper'>
+        <div className='roll-image'>
+          <img src={irs} width='100px' alt='irs provider' />
         </div>
-        <div className="roll-image enrolled">
-          <img src={enrolled} width="230px" alt="enrolled agent" />
+        <div className='roll-image enrolled'>
+          <img src={enrolled} width='230px' alt='enrolled agent' />
         </div>
-        <div className="roll-image">
+        <div className='roll-image'>
           <img
             src={csea}
-            width="150px"
-            alt="california society of enrolled agents"
+            width='150px'
+            alt='california society of enrolled agents'
           />
         </div>
-        <div className="roll-image nna">
-          <img src={nna} width="200px" alt="national notary association" />
+        <div className='roll-image nna'>
+          <img src={nna} width='200px' alt='national notary association' />
         </div>
       </section>
 
-      <div className="services-section">
-        <div className="services-info">
+      <div className='services-section'>
+        <div className='services-info'>
           {/* <h2>
             Primavera will always ask the right questions to ensure you get
             every deduction and credit you deserve.
@@ -93,29 +93,29 @@ function Home() {
           </p> */}
         </div>
 
-        <div className="offered-services">
-          <div className="service top">
-            <i class="fas fa-book-open"></i>
+        <div className='offered-services'>
+          <div className='service top'>
+            <i class='fas fa-book-open'></i>
             <p>Bookkeeping</p>
           </div>
-          <div className="service top">
-            <i class="fas fa-money-check-alt"></i>
+          <div className='service top'>
+            <i class='fas fa-money-check-alt'></i>
             <p>Payroll Services</p>
           </div>
-          <div className="service">
-            <i class="fas fa-business-time"></i>
+          <div className='service'>
+            <i class='fas fa-business-time'></i>
             <p>Business Tax Return</p>
           </div>
-          <div className="service">
-            <i class="fas fa-user-clock"></i>
+          <div className='service'>
+            <i class='fas fa-user-clock'></i>
             <p>Individual Tax Return</p>
           </div>
-          <div className="service bottom">
-            <i class="fas fa-id-card"></i>
+          <div className='service bottom'>
+            <i class='fas fa-id-card'></i>
             <p>ITIN Services</p>
           </div>
-          <div className="service bottom">
-            <i class="fas fa-file-signature"></i>
+          <div className='service bottom'>
+            <i class='fas fa-file-signature'></i>
             <p>Notary Public</p>
           </div>
         </div>

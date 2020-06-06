@@ -204,6 +204,7 @@ link:hover {
 .burger-opened {
   transform: 0.4s ease;
   z-index: 101;
+  position: fixed;
 }
 
 .burger-opened .burger-part {
@@ -292,7 +293,7 @@ link:hover {
     );
   }
   .box-shadow:after {
-    content: "";
+    content: '';
     position: absolute;
     width: 100%;
     bottom: 4px;
