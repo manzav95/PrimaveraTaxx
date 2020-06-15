@@ -151,12 +151,23 @@
   background-color: white;
 }
 
-.offered-services .top {
-  margin-top: 0;
+.offered-services h2 {
+  border-bottom: solid 3px #056f92;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 75%;
 }
 
-.offered-services .bottom {
-  margin-bottom: 0;
+.service:nth-child(1) {
+  margin-top: 0px;
+}
+.service:nth-child(2) {
+  margin-top: 0px;
+}
+.service:nth-child(5) {
+  margin-bottom: 0px;
+}
+.service:nth-child(6) {
+  margin-bottom: 0px;
 }
 
 .service {
@@ -172,5 +183,29 @@
 
 @media only screen and (max-width: 768px) {
 }
-@media only screen and (max-width: 400p) {
+@media only screen and (max-width: 450px) {
+  .services-info {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .service {
+    margin: 5px;
+  }
+
+  .service:nth-child(1) {
+    margin: 5px;
+  }
+  .service:nth-child(2) {
+    margin-top: 10px;
+  }
+  .service:nth-child(5) {
+    margin: 5px;
+  }
+  .service:nth-child(6) {
+    margin: 5px;
+  }
+  .offered-services {
+    padding-top: 40px;
+  }
 }

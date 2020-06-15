@@ -86,12 +86,17 @@ body {
   }
 
   .body-message {
-    font-size: 1rem;
+    font-size: 15px;
   }
 }
 
-@media only screen and (max-width: 450p) {
+@media only screen and (max-width: 450px) {
   .body-message p {
     line-height: 1.2;
+  }
+
+  .main-popup{
+    top: 8%;
+    width: 90%;
   }
 }

@@ -94,6 +94,7 @@ function Home() {
         </div>
 
         <div className='offered-services'>
+          <h2>Services Offered</h2>
           <div className='service top'>
             <i class='fas fa-book-open'></i>
             <p>Bookkeeping</p>
@@ -110,7 +111,7 @@ function Home() {
             <i class='fas fa-user-clock'></i>
             <p>Individual Tax Return</p>
           </div>
-          <div className='service bottom'>
+          <div className='bottom service'>
             <i class='fas fa-id-card'></i>
             <p>ITIN Services</p>
           </div>
