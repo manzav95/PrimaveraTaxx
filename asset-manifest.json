@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/PrimaveraTaxx/static/css/main.3aa2778c.chunk.css",
-    "main.js": "/PrimaveraTaxx/static/js/main.0556761b.chunk.js",
-    "main.js.map": "/PrimaveraTaxx/static/js/main.0556761b.chunk.js.map",
+    "main.css": "/PrimaveraTaxx/static/css/main.e1f17518.chunk.css",
+    "main.js": "/PrimaveraTaxx/static/js/main.a10595df.chunk.js",
+    "main.js.map": "/PrimaveraTaxx/static/js/main.a10595df.chunk.js.map",
     "runtime-main.js": "/PrimaveraTaxx/static/js/runtime-main.a1ba98a1.js",
     "runtime-main.js.map": "/PrimaveraTaxx/static/js/runtime-main.a1ba98a1.js.map",
-    "static/css/2.ace36aee.chunk.css": "/PrimaveraTaxx/static/css/2.ace36aee.chunk.css",
-    "static/js/2.608a14c6.chunk.js": "/PrimaveraTaxx/static/js/2.608a14c6.chunk.js",
-    "static/js/2.608a14c6.chunk.js.map": "/PrimaveraTaxx/static/js/2.608a14c6.chunk.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/PrimaveraTaxx/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.388fc9f2.chunk.js": "/PrimaveraTaxx/static/js/2.388fc9f2.chunk.js",
+    "static/js/2.388fc9f2.chunk.js.map": "/PrimaveraTaxx/static/js/2.388fc9f2.chunk.js.map",
     "index.html": "/PrimaveraTaxx/index.html",
-    "precache-manifest.de93a320dd427d55b6dff118a85e959b.js": "/PrimaveraTaxx/precache-manifest.de93a320dd427d55b6dff118a85e959b.js",
+    "precache-manifest.e46fd10a525d40bc4512c066b02c3a63.js": "/PrimaveraTaxx/precache-manifest.e46fd10a525d40bc4512c066b02c3a63.js",
     "service-worker.js": "/PrimaveraTaxx/service-worker.js",
-    "static/css/2.ace36aee.chunk.css.map": "/PrimaveraTaxx/static/css/2.ace36aee.chunk.css.map",
-    "static/css/main.3aa2778c.chunk.css.map": "/PrimaveraTaxx/static/css/main.3aa2778c.chunk.css.map",
+    "static/css/2.47e06e2e.chunk.css.map": "/PrimaveraTaxx/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.e1f17518.chunk.css.map": "/PrimaveraTaxx/static/css/main.e1f17518.chunk.css.map",
     "static/media/csea.jpg": "/PrimaveraTaxx/static/media/csea.9ffbb6e2.jpg",
     "static/media/enrolled.jpg": "/PrimaveraTaxx/static/media/enrolled.f6221f21.jpg",
     "static/media/style.css": "/PrimaveraTaxx/static/media/home-image6.bc440d7f.jpg",
@@ -21,9 +21,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a1ba98a1.js",
-    "static/css/2.ace36aee.chunk.css",
-    "static/js/2.608a14c6.chunk.js",
-    "static/css/main.3aa2778c.chunk.css",
-    "static/js/main.0556761b.chunk.js"
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.388fc9f2.chunk.js",
+    "static/css/main.e1f17518.chunk.css",
+    "static/js/main.a10595df.chunk.js"
   ]
 }

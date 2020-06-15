@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "794d5efc22d1a583d4d20db76dc3cd6d",
+    "revision": "b795ab96ea2f7a9e2b5587914c4909e9",
     "url": "/PrimaveraTaxx/index.html"
   },
   {
-    "revision": "44e18bd5eeb637bbf15c",
-    "url": "/PrimaveraTaxx/static/css/2.ace36aee.chunk.css"
+    "revision": "5cc901efe2b4a16992f9",
+    "url": "/PrimaveraTaxx/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "8a7e28eb051bbcfe1497",
-    "url": "/PrimaveraTaxx/static/css/main.3aa2778c.chunk.css"
+    "revision": "2f19116ed85061e90e37",
+    "url": "/PrimaveraTaxx/static/css/main.e1f17518.chunk.css"
   },
   {
-    "revision": "44e18bd5eeb637bbf15c",
-    "url": "/PrimaveraTaxx/static/js/2.608a14c6.chunk.js"
+    "revision": "5cc901efe2b4a16992f9",
+    "url": "/PrimaveraTaxx/static/js/2.388fc9f2.chunk.js"
   },
   {
-    "revision": "8a7e28eb051bbcfe1497",
-    "url": "/PrimaveraTaxx/static/js/main.0556761b.chunk.js"
+    "revision": "2f19116ed85061e90e37",
+    "url": "/PrimaveraTaxx/static/js/main.a10595df.chunk.js"
   },
   {
     "revision": "23d2d6a481e52d8ee056",
