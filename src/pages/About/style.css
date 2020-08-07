@@ -1,6 +1,72 @@
+.about-main {
+  background-image: url('../../images/home-image.jpg');
+}
+
 .about-wrapper {
-  width: 100%;
-  height: auto;
+  height: 90vh;
+  margin: 0;
+  background: #77a1d3; /* fallback for old browsers */
+
+  background-image: linear-gradient(
+    171.8deg,
+    rgba(5, 111, 146, 1) 13.5%,
+    rgb(6, 57, 84) 78.6%
+  );
+  /* background-image: linear-gradient(135deg, #fff6b7 10%, #f6416c 100%)*/
+  display: flex;
+}
+
+@keyframes fadeInLeft {
+  from {
+    transform: rotate(0) translateX(-20%);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+.main-about {
+  background-color: #0005;
+  width: 70%;
+  margin: auto;
+  color: white;
+  animation: fadeInLeft 1s 1 0s ease-out;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: max-content;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hours {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.hours h5 {
+  font-weight: 600;
+}
+
+.season-hours,
+normal-hours {
+  padding: 10px 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .main-about {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .address {
+    width: 100%;
+  }
 }
 
 /* .about-main {

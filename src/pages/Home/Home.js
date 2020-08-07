@@ -14,7 +14,7 @@ function Home() {
         <title>Antioch, CA | Primavera Taxx</title>
       </Helmet>
 
-      <Popup />
+      {/* <Popup /> */}
       <section className='home-landing'>
         {' '}
         <div className='landing-overlay'></div>

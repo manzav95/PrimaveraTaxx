@@ -11,6 +11,7 @@ import ScrollToTop from 'react-router-scroll-top';
 import Footer from './components/Footer/Footer';
 import './style/style.css';
 import Reviews from './pages/Reviews/Reviews';
+import Popup from './components/Popup/Popup';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Covid />
           {/* <Info /> */}
           <VanillaNav />
+          <Popup />
 
           <Switch>
             <Route exact path='/' component={Home} />
