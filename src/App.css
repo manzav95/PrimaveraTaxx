@@ -3,14 +3,18 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  position: initial;
 }
 
 .App {
   text-align: center;
 }
-
+.body-no-scroll {
+  overflow: auto;
+  position: fixed;
+}
 @media only screen and (max-width: 980px) {
-  .infoContact{
+  .infoContact {
     font-size: 12px;
   }
 }

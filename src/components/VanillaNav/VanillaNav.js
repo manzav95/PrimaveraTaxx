@@ -6,9 +6,11 @@ import SideBar from '../SideBar/SideBar';
 const toggleMobileButton = function () {
   let burger = document.querySelector('.burger');
   let mobileMenu = document.querySelector('.mobile-menu');
+  let body = document.querySelector('body');
 
   burger.classList.toggle('burger-opened');
   mobileMenu.classList.toggle('mobile-menu-opened');
+  body.classList.toggle('body-no-scroll');
 };
 
 const VanillaNav = () => {
@@ -24,6 +26,11 @@ const VanillaNav = () => {
           </Link>
 
           <ul className='nav-links'>
+            <Link to='/' style={{ textDecoration: 'none' }}>
+              <li className='linklink' id='home'>
+                Home
+              </li>
+            </Link>
             <Link to='/about' style={{ textDecoration: 'none' }}>
               <li className='linklink' id='about'>
                 About
@@ -35,16 +42,13 @@ const VanillaNav = () => {
               </li>
             </Link>
 
-            <Link to='/reviews' style={{ textDecoration: 'none' }}>
-              <li className='linklink' id='reviews'>
-                Reviews
-              </li>
-            </Link>
             <li className='dropdown linklink dropbtn'>
               Resources
               <div className='dropdown-content'>
                 <a href='https://www.irs.gov/payments'>Pay IRS</a>
-                <a href='https://covid19.ca.gov/taxes/'>COVID News</a>
+                <a href='https://covid19.ca.gov/search/?q=taxes#gsc.tab=0&gsc.q=taxes&gsc.page=1'>
+                  COVID Tax Info
+                </a>
                 <a href='https://www.irs.gov/payments'>Link 3</a>
               </div>
             </li>

@@ -6,9 +6,11 @@ import './style.css';
 const toggleMobileButton = function () {
   let burger = document.querySelector('.burger');
   let mobileMenu = document.querySelector('.mobile-menu');
+  let body = document.querySelector('body');
 
   burger.classList.toggle('burger-opened');
   mobileMenu.classList.toggle('mobile-menu-opened');
+  body.classList.toggle('body-no-scroll');
 };
 
 function SideBar() {
@@ -24,9 +26,6 @@ function SideBar() {
           </Link>
           <Link to='/contact' style={{ textDecoration: 'none' }}>
             <p className='linklink link-right'>Contact</p>
-          </Link>
-          <Link to='/reviews' style={{ textDecoration: 'none' }}>
-            <p className='linklink link-left'>Reviews</p>
           </Link>
         </div>
       </div>{' '}
