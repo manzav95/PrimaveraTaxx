@@ -5,7 +5,7 @@ This website is for a tax preparing business called Primavera Taxx. They special
 ## Built With
 
 - [ReactJS](https://reactjs.org/) - The web framework used
-- [react-reveal](https://www.react-reveal.com/) - Dependency Management
+- [react-reveal](https://www.react-reveal.com/) - transition effects for on-scroll reveals
 
 ## Authors
 
