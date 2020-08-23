@@ -9,7 +9,7 @@ This website is for a tax preparing business called Primavera Taxx. They special
 
 ## Authors
 
-- **Manuel Zavala** - [ManZav95](https://github.com/manzav95)
+- **Manuel Zavala** - [GitHub](https://github.com/manzav95)
 
 ## License
 
