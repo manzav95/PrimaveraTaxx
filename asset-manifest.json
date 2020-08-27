@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4d4c340.chunk.css",
-    "main.js": "/static/js/main.414a8a9b.chunk.js",
-    "main.js.map": "/static/js/main.414a8a9b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cbee9f67.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cbee9f67.js.map",
-    "static/css/2.25d8efc1.chunk.css": "/static/css/2.25d8efc1.chunk.css",
-    "static/js/2.b225aa46.chunk.js": "/static/js/2.b225aa46.chunk.js",
-    "static/js/2.b225aa46.chunk.js.map": "/static/js/2.b225aa46.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.156f9688b02e8d5b913a3437575ba0d5.js": "/precache-manifest.156f9688b02e8d5b913a3437575ba0d5.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.25d8efc1.chunk.css.map": "/static/css/2.25d8efc1.chunk.css.map",
-    "static/css/main.c4d4c340.chunk.css.map": "/static/css/main.c4d4c340.chunk.css.map",
-    "static/media/csea.jpg": "/static/media/csea.9ffbb6e2.jpg",
-    "static/media/enrolled.jpg": "/static/media/enrolled.f6221f21.jpg",
-    "static/media/style.css": "/static/media/home-image6.bc440d7f.jpg",
-    "static/media/irs.jpg": "/static/media/irs.9178e6fc.jpg",
-    "static/media/nna.jpg": "/static/media/nna.2a711774.jpg"
+    "main.css": "/PrimaveraTaxx/static/css/main.0c79b1f8.chunk.css",
+    "main.js": "/PrimaveraTaxx/static/js/main.397721ff.chunk.js",
+    "main.js.map": "/PrimaveraTaxx/static/js/main.397721ff.chunk.js.map",
+    "runtime-main.js": "/PrimaveraTaxx/static/js/runtime-main.a1ba98a1.js",
+    "runtime-main.js.map": "/PrimaveraTaxx/static/js/runtime-main.a1ba98a1.js.map",
+    "static/css/2.25d8efc1.chunk.css": "/PrimaveraTaxx/static/css/2.25d8efc1.chunk.css",
+    "static/js/2.b225aa46.chunk.js": "/PrimaveraTaxx/static/js/2.b225aa46.chunk.js",
+    "static/js/2.b225aa46.chunk.js.map": "/PrimaveraTaxx/static/js/2.b225aa46.chunk.js.map",
+    "index.html": "/PrimaveraTaxx/index.html",
+    "precache-manifest.ff1b06f849b5082baf18565e762eb383.js": "/PrimaveraTaxx/precache-manifest.ff1b06f849b5082baf18565e762eb383.js",
+    "service-worker.js": "/PrimaveraTaxx/service-worker.js",
+    "static/css/2.25d8efc1.chunk.css.map": "/PrimaveraTaxx/static/css/2.25d8efc1.chunk.css.map",
+    "static/css/main.0c79b1f8.chunk.css.map": "/PrimaveraTaxx/static/css/main.0c79b1f8.chunk.css.map",
+    "static/media/csea.jpg": "/PrimaveraTaxx/static/media/csea.9ffbb6e2.jpg",
+    "static/media/enrolled.jpg": "/PrimaveraTaxx/static/media/enrolled.f6221f21.jpg",
+    "static/media/style.css": "/PrimaveraTaxx/static/media/home-image6.bc440d7f.jpg",
+    "static/media/irs.jpg": "/PrimaveraTaxx/static/media/irs.9178e6fc.jpg",
+    "static/media/nna.jpg": "/PrimaveraTaxx/static/media/nna.2a711774.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cbee9f67.js",
+    "static/js/runtime-main.a1ba98a1.js",
     "static/css/2.25d8efc1.chunk.css",
     "static/js/2.b225aa46.chunk.js",
-    "static/css/main.c4d4c340.chunk.css",
-    "static/js/main.414a8a9b.chunk.js"
+    "static/css/main.0c79b1f8.chunk.css",
+    "static/js/main.397721ff.chunk.js"
   ]
 }
