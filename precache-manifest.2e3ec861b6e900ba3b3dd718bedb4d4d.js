@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c52cb1454deedcadb8601fe27f6e0218",
+    "revision": "18c1cccd4030be41f5cff1406c200155",
     "url": "/PrimaveraTaxx/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PrimaveraTaxx/static/css/2.25d8efc1.chunk.css"
   },
   {
-    "revision": "678a8c657173fbb7eb0b",
+    "revision": "743f4de1843d09e3e901",
     "url": "/PrimaveraTaxx/static/css/main.0c79b1f8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PrimaveraTaxx/static/js/2.b225aa46.chunk.js"
   },
   {
-    "revision": "678a8c657173fbb7eb0b",
-    "url": "/PrimaveraTaxx/static/js/main.397721ff.chunk.js"
+    "revision": "743f4de1843d09e3e901",
+    "url": "/PrimaveraTaxx/static/js/main.889afdfc.chunk.js"
   },
   {
     "revision": "23d2d6a481e52d8ee056",

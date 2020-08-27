@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PrimaveraTaxx/static/css/main.0c79b1f8.chunk.css",
-    "main.js": "/PrimaveraTaxx/static/js/main.397721ff.chunk.js",
-    "main.js.map": "/PrimaveraTaxx/static/js/main.397721ff.chunk.js.map",
+    "main.js": "/PrimaveraTaxx/static/js/main.889afdfc.chunk.js",
+    "main.js.map": "/PrimaveraTaxx/static/js/main.889afdfc.chunk.js.map",
     "runtime-main.js": "/PrimaveraTaxx/static/js/runtime-main.a1ba98a1.js",
     "runtime-main.js.map": "/PrimaveraTaxx/static/js/runtime-main.a1ba98a1.js.map",
     "static/css/2.25d8efc1.chunk.css": "/PrimaveraTaxx/static/css/2.25d8efc1.chunk.css",
     "static/js/2.b225aa46.chunk.js": "/PrimaveraTaxx/static/js/2.b225aa46.chunk.js",
     "static/js/2.b225aa46.chunk.js.map": "/PrimaveraTaxx/static/js/2.b225aa46.chunk.js.map",
     "index.html": "/PrimaveraTaxx/index.html",
-    "precache-manifest.ff1b06f849b5082baf18565e762eb383.js": "/PrimaveraTaxx/precache-manifest.ff1b06f849b5082baf18565e762eb383.js",
+    "precache-manifest.2e3ec861b6e900ba3b3dd718bedb4d4d.js": "/PrimaveraTaxx/precache-manifest.2e3ec861b6e900ba3b3dd718bedb4d4d.js",
     "service-worker.js": "/PrimaveraTaxx/service-worker.js",
     "static/css/2.25d8efc1.chunk.css.map": "/PrimaveraTaxx/static/css/2.25d8efc1.chunk.css.map",
     "static/css/main.0c79b1f8.chunk.css.map": "/PrimaveraTaxx/static/css/main.0c79b1f8.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.25d8efc1.chunk.css",
     "static/js/2.b225aa46.chunk.js",
     "static/css/main.0c79b1f8.chunk.css",
-    "static/js/main.397721ff.chunk.js"
+    "static/js/main.889afdfc.chunk.js"
   ]
 }

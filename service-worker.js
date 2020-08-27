@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PrimaveraTaxx/precache-manifest.ff1b06f849b5082baf18565e762eb383.js"
+  "/PrimaveraTaxx/precache-manifest.2e3ec861b6e900ba3b3dd718bedb4d4d.js"
 );
 
 self.addEventListener('message', (event) => {
