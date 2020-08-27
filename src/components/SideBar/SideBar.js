@@ -16,8 +16,12 @@ const toggleMobileButton = function () {
 function SideBar() {
   return (
     <div className='sidebar-wrapper'>
-      <div class='mobile-menu' id='mobile-menu' onClick={toggleMobileButton}>
-        <div class='menu-content'>
+      <div
+        className='mobile-menu'
+        id='mobile-menu'
+        onClick={toggleMobileButton}
+      >
+        <div className='menu-content'>
           <Link to='/' style={{ textDecoration: 'none' }}>
             <p className='linklink link-right'>Home</p>
           </Link>

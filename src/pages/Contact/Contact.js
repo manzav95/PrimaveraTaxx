@@ -6,9 +6,9 @@ function myNavFunc(e) {
   // If it's an iPhone..
   e.preventDefault();
   if (
-    navigator.platform.indexOf('iPhone') != -1 ||
-    navigator.platform.indexOf('iPod') != -1 ||
-    navigator.platform.indexOf('iPad') != -1
+    navigator.platform.indexOf('iPhone') !== -1 ||
+    navigator.platform.indexOf('iPod') !== -1 ||
+    navigator.platform.indexOf('iPad') !== -1
   )
     window.open(
       'maps://www.google.com/maps/dir/?api=1&travelmode=driving&layer=traffic&destination=[YOUR_LAT],[YOUR_LNG]'
@@ -61,8 +61,7 @@ function Contact() {
           <h3>
             <span>Our</span> Address
           </h3>
-          <a href='' rel='noopener noreferrer' onClick={myNavFunc}>
-            {' '}
+          <a href='/#' rel='noopener noreferrer' onClick={myNavFunc}>
             <p>
               4369 Hillcrest Ave <br />
               Antioch, CA 94531
@@ -80,6 +79,7 @@ function Contact() {
             src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d786.1946594573868!2d-121.76602617076182!3d37.982294998732634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808557cb5718b5fd%3A0xab0b70feffede59f!2sPrimavera%20Taxx!5e0!3m2!1sen!2sus!4v1590966218553!5m2!1sen!2sus'
             style={{ width: '100%', height: '100%' }}
             frameBorder='0'
+            title='map'
           ></iframe>
         </div>
       </div>

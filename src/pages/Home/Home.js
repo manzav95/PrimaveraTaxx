@@ -5,7 +5,6 @@ import enrolled from '../../images/enrolled.jpg';
 import irs from '../../images/irs.jpg';
 import nna from '../../images/nna.jpg';
 import csea from '../../images/csea.jpg';
-import Popup from '../../components/Popup/Popup';
 
 function Home() {
   return (
@@ -96,27 +95,27 @@ function Home() {
         <div className='offered-services'>
           <h2>Services Offered</h2>
           <div className='service top'>
-            <i class='fas fa-book-open'></i>
+            <i className='fas fa-book-open'></i>
             <p>Bookkeeping</p>
           </div>
           <div className='service top'>
-            <i class='fas fa-money-check-alt'></i>
+            <i className='fas fa-money-check-alt'></i>
             <p>Payroll Services</p>
           </div>
           <div className='service'>
-            <i class='fas fa-business-time'></i>
+            <i className='fas fa-business-time'></i>
             <p>Business Tax Return</p>
           </div>
           <div className='service'>
-            <i class='fas fa-user-clock'></i>
+            <i className='fas fa-user-clock'></i>
             <p>Individual Tax Return</p>
           </div>
           <div className='bottom service'>
-            <i class='fas fa-id-card'></i>
+            <i className='fas fa-id-card'></i>
             <p>ITIN Services</p>
           </div>
           <div className='service bottom'>
-            <i class='fas fa-file-signature'></i>
+            <i className='fas fa-file-signature'></i>
             <p>Notary Public</p>
           </div>
         </div>
