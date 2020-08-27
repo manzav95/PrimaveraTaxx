@@ -2,7 +2,7 @@
   "name": "primavera-taxx",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://primavera-taxx.herokuapp.com/",
+  "homepage": "http://manzav95.github.io/PrimaveraTaxx",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
