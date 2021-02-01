@@ -21,6 +21,8 @@
   /* background-image: linear-gradient(135deg, #fff6b7 10%, #f6416c 100%)*/
   display: flex;
   flex-direction: column;
+
+  min-height: 100vh;
 }
 
 @keyframes fadeInLeft {
@@ -40,6 +42,16 @@
   }
   to {
     transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeInBtm {
+  from {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
     opacity: 1;
   }
 }
@@ -72,6 +84,8 @@
   height: max-content;
   justify-content: space-between;
   align-items: center;
+  animation: fadeInBtm 2s 1 0s ease-in forwards;
+  opacity: 0;
 }
 
 .elfsight-app-b5b4cfbc-3455-44be-9d87-55f596917ca2 {

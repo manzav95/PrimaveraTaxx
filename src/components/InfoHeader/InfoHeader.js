@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-// import SocialIcon from "react-social-icons";
 
 const removeInfo = function () {
   let infoBar = document.querySelector(".info-wrapper");

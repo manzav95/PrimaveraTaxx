@@ -45,11 +45,27 @@ const VanillaNav = () => {
             <li className='dropdown linklink dropbtn'>
               Resources
               <div className='dropdown-content'>
-                <a href='https://www.irs.gov/payments'>Pay IRS</a>
-                <a href='https://covid19.ca.gov/search/?q=taxes#gsc.tab=0&gsc.q=taxes&gsc.page=1'>
+                <a
+                  href='https://www.irs.gov/payments'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Pay IRS
+                </a>
+                <a
+                  href='https://covid19.ca.gov/taxes/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   COVID Tax Info
                 </a>
-                <a href='https://www.irs.gov/payments'>Link 3</a>
+                <a
+                  href='https://www.irs.gov/payments'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Link 3
+                </a>
               </div>
             </li>
           </ul>

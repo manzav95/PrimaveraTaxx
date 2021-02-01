@@ -1,5 +1,5 @@
 .footer-main {
-  height: 80px;
+  /* height: 120px; */
 
   background-image: linear-gradient(
     171.8deg,
@@ -9,31 +9,29 @@
   position: sticky;
   width: 100%;
   bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .footer {
   font-size: 14px;
   color: white;
-  position: absolute;
   width: 100%;
   text-align: center;
-  bottom: 1px;
+  /* bottom: 1px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 
 .contact-footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 15px;
 }
 
 .contact-footer a {
-  margin: 5px;
+  margin: 0 5px 0 5px;
   color: white;
 }
 

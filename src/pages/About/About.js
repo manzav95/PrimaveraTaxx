@@ -6,7 +6,7 @@ function About(props) {
   return (
     <div className='about-wrapper-main'>
       <Helmet>
-        <title>Contact Us | Primavera Taxx</title>
+        <title>About | Primavera Taxx</title>
       </Helmet>
       <div className='about-us-wrapper'>
         <div className='about'>
@@ -34,13 +34,13 @@ function About(props) {
 //   <div className='main-about'>
 //     <div className='about-info'>
 //       <h1>About Us</h1>
-      // <p>
-      //   Primavera Taxx was founded on the fundamental basis that our clients
-      //   deserve to be treated as family and not just another tax filing
-      //   process. We're here to provide the TAX HELP you deserve and ensure
-      //   you a friendly and secure environment were you can leave feeling
-      //   relieved from any TAX related event.
-      // </p>
+// <p>
+//   Primavera Taxx was founded on the fundamental basis that our clients
+//   deserve to be treated as family and not just another tax filing
+//   process. We're here to provide the TAX HELP you deserve and ensure
+//   you a friendly and secure environment were you can leave feeling
+//   relieved from any TAX related event.
+// </p>
 //       <div className='background-img-about'></div>
 //     </div>
 //   </div>

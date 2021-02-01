@@ -26,7 +26,7 @@ function Home() {
               appointment today!
             </p> */}
             <p className='info'>
-              Maximized Tax Return, Done Right The First Time
+              Maximized Tax Returns, Done Right The First Time
             </p>
             <a
               id='start-btn'

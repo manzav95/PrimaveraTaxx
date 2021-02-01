@@ -10,14 +10,9 @@ function myNavFunc(e) {
     navigator.platform.indexOf('iPod') !== -1 ||
     navigator.platform.indexOf('iPad') !== -1
   )
-    window.open(
-      'maps://www.google.com/maps/dir/?api=1&travelmode=driving&layer=traffic&destination=[YOUR_LAT],[YOUR_LNG]'
-    );
+    window.open('http://maps.apple.com/?q=Primavera+Taxx,+Antioch+CA');
   //Any
-  else
-    window.open(
-      'https://www.google.com/maps/dir/?api=1&travelmode=driving&layer=traffic&destination=[YOUR_LAT],[YOUR_LNG]'
-    );
+  else window.open('http://maps.google.com/?q=Primavera+Taxx,+Antioch+CA');
 }
 
 function Contact() {
@@ -61,7 +56,12 @@ function Contact() {
           <h3>
             <span>Our</span> Address
           </h3>
-          <a href='/#' rel='noopener noreferrer' onClick={myNavFunc}>
+          <a
+            href='/#'
+            target='_blank'
+            rel='noopener noreferrer'
+            onClick={myNavFunc}
+          >
             <p>
               4369 Hillcrest Ave <br />
               Antioch, CA 94531

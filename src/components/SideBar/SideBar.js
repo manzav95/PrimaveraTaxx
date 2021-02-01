@@ -31,6 +31,12 @@ function SideBar() {
           <Link to='/contact' style={{ textDecoration: 'none' }}>
             <p className='linklink link-right'>Contact</p>
           </Link>
+          <a href='https://login.atomanager.com/ATOM_PRI/webinfodefault.aspx'>
+            Login
+          </a>
+          <a href='https://login.atomanager.com/ATOM_PRI/default.aspx?redirect=ProspectMessage.aspx'>
+            Signup
+          </a>
         </div>
       </div>{' '}
     </div>
