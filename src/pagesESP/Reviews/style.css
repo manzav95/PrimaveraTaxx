@@ -1,0 +1,22 @@
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.yelp-review {
+  width: 50% !important;
+  background-color: wheat;
+}
+
+.review .review-header {
+  display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .yelp-review {
+    width: 100% !important;
+  }
+  .review .review-header {
+    display: none !important;
+  }
+}

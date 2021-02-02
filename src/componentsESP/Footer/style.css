@@ -1,0 +1,41 @@
+.footer-main {
+  /* height: 120px; */
+
+  background-image: linear-gradient(
+    171.8deg,
+    rgba(5, 111, 146, 1) 13.5%,
+    rgba(6, 57, 84, 1) 78.6%
+  );
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer {
+  font-size: 14px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  /* bottom: 1px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.contact-footer a {
+  margin: 0 5px 0 5px;
+  color: white;
+}
+
+.contact-footer a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}

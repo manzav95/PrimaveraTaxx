@@ -1,0 +1,102 @@
+body {
+  overflow: hidden;
+}
+
+.popup-wrapper {
+  position: fixed;
+  top: -20px;
+  height: 110%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  display: block;
+  opacity: 1;
+  animation: fadeIn 1s forwards;
+  transition: position 0.2s, visibility 0.2s;
+}
+
+.main-popup {
+  position: fixed;
+  top: 15%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  background: rgb(211, 211, 211);
+  border-radius: 5px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.close-section {
+  position: relative;
+  width: 98%;
+  text-align: end;
+  font-size: 30px;
+}
+
+.body-message {
+  font-size: 20px;
+}
+
+.body-message p {
+  margin: 15px 20px;
+  text-align: left;
+}
+
+.body-message a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+#fax-number {
+  font-weight: 700;
+}
+
+#popup-button:hover {
+  cursor: pointer;
+}
+
+.italics {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-popup header h1 {
+    font-size: 2em;
+  }
+
+  .body-message {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .body-message p {
+    line-height: 1.2;
+  }
+
+  .main-popup{
+    top: 8%;
+    width: 90%;
+  }
+}

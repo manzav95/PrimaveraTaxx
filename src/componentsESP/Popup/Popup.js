@@ -17,7 +17,7 @@ export default class Popup extends Component {
   render() {
     return (
       <div id='popup'>
-        <section className='popup-wrapper'>
+        <section className='popup-wrapper' onClick={closePopup}>
           <section className='main-popup'>
             <div className='close-section'>
               <i
@@ -32,13 +32,13 @@ export default class Popup extends Component {
             </header>
             <div className='body-message'>
               <p>
-                Your health and safety is our number one priority. We continue
-                to prepare your tax returns but we are minimizing physical
-                contact at this time. We have several available options so that
-                you can send us your documents in a reliable and secure way.
+                COVID-19- Your health and safety is our priority. We continue to
+                prepare your tax returns but we are avoiding physical contact.
+                We have several options so that you can send us your documents
+                in a reliable and secure way.
               </p>
               <p>
-                <b>1</b> - You can download the{' '}
+                1- You can download the{' '}
                 <a
                   className='italics'
                   id='taxpass-link'
@@ -49,31 +49,14 @@ export default class Popup extends Component {
                 >
                   TaxPass
                 </a>{' '}
-                application on your mobile device and register using the code{' '}
+                application and Register using the code{' '}
                 <span className='italics'> 'G4MLBWLV'</span> to get access to
-                Primavera Taxx. (Make sure you see the name 'Primavera Taxx'
-                before submitting any information.) The information you input
-                will go straight into your file and the process of your return
-                will start almost automatically.
+                Primavera Taxx. (Make sure you see the name 'Primavera Taxx')
+                The information you input will go straight into your file and
+                the process of your return will be almost automatically.
               </p>
               <p>
-                <b>2</b> - You can signup for{' '}
-                <a
-                  href='http://www.verifyle.com'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Verifyle
-                </a>{' '}
-                using your email. Once your account is setup, be sure to add{' '}
-                <span className='italics'>primaverataxx@gmail.com</span> to your
-                contacts. You will now be able to have one to one private
-                messages with Maria Luisa of Primavera Taxx. You will have the
-                ability to send documents and photos over as well as sign
-                documents.
-              </p>
-              <p>
-                <b>3</b> - You can fax your documents over to us at{' '}
+                2-You can fax your documents over to us at{' '}
                 <span className='italics' id='fax-number'>
                   (855) 751-5543
                 </span>
@@ -81,12 +64,12 @@ export default class Popup extends Component {
                 recieve them.
               </p>
               <p>
-                <b>4</b> - You can stop by the office to drop off documents in
-                an envelope or bag and we'll give you a call back once your
+                3-You can also stop by the office to drop off documents in an
+                envelope or bag and we'll give you a call back once your
                 documents are ready to be signed. (Please keep in mind, we will
                 allow <span className='italics'>24-72</span> hours to pass
-                before handling any documents to be safe and prevent the spread
-                of COVID-19.)
+                before handling any documents to be safe and preventing the
+                spread of COVID-19)
               </p>
               <p>
                 For any questions or concerns, feel free to contact us through
@@ -98,7 +81,7 @@ export default class Popup extends Component {
                 or by phone at
                 <a href='tel:+19255501986' className='italics'>
                   {' '}
-                  (925) 550-1986
+                  (925) 550-1986{' '}
                 </a>
                 .
               </p>
