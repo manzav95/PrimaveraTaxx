@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer';
 import './style/style.css';
 import Reviews from './pages/Reviews/Reviews';
 import Popup from './components/Popup/Popup';
+// import PopupESP from './components/Popup/PopupESP';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           {/* <Info /> */}
           <VanillaNav />
           <Popup />
+          {/* <PopupESP /> */}
 
           <Switch>
             <Route exact path='/' component={Home} />

@@ -53,16 +53,23 @@ body {
   font-size: 30px;
 }
 
-.body-message {
+.body-message-esp {
+  display: none;
+}
+
+.body-message,
+.body-message-esp {
   font-size: 20px;
 }
 
-.body-message p {
+.body-message p,
+.body-message-esp p {
   margin: 15px 20px;
   text-align: left;
 }
 
-.body-message a {
+.body-message a,
+.body-message-esp a {
   text-decoration: none;
   color: black;
   font-weight: 700;
@@ -85,17 +92,27 @@ body {
     font-size: 2em;
   }
 
-  .body-message {
+  .main-popup {
+    overflow-y: scroll;
+  }
+
+  #popup {
+    overflow-y: scroll;
+  }
+
+  .body-message,
+  .body-message-esp {
     font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 450px) {
-  .body-message p {
+  .body-message p,
+  .body-message-esp p {
     line-height: 1.2;
   }
 
-  .main-popup{
+  .main-popup {
     top: 8%;
     width: 90%;
   }
