@@ -58,7 +58,7 @@ export default class Popup extends Component {
                 <a
                   className='italics'
                   id='taxpass-link'
-                  href='https://apps.apple.com/us/app/taxpass/id1256036789'
+                  href='https://urlgeni.us/taxpass'
                   target='_blank'
                   rel='noopener noreferrer'
                   title='Tax Pass'
@@ -75,7 +75,7 @@ export default class Popup extends Component {
               <p>
                 <b>2</b> - You can signup for{' '}
                 <a
-                  href='http://www.verifyle.com'
+                  href='https://urlgeni.us/verifyle'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -118,8 +118,8 @@ export default class Popup extends Component {
                 </a>
                 .
               </p>
-              <a href='/#' onClick={openPopESP}>
-                Press For Spanish
+              <a href='/#' onClick={openPopESP} className='trans-link'>
+                Para Español
               </a>
             </div>
             <div className='body-message-esp'>
@@ -135,7 +135,7 @@ export default class Popup extends Component {
                 <a
                   className='italics'
                   id='taxpass-link'
-                  href='https://apps.apple.com/us/app/taxpass/id1256036789'
+                  href='https://urlgeni.us/taxpass'
                   target='_blank'
                   rel='noopener noreferrer'
                   title='Tax Pass'
@@ -152,7 +152,7 @@ export default class Popup extends Component {
               <p>
                 <b>2</b> - Puedes registrarte para{' '}
                 <a
-                  href='http://www.verifyle.com'
+                  href='https://urlgeni.us/verifyle'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -196,8 +196,8 @@ export default class Popup extends Component {
                 </a>
                 .
               </p>
-              <a href='/#' onClick={openPop}>
-                Press For English
+              <a href='/#' onClick={openPop} className='trans-link'>
+                For English
               </a>
             </div>
           </section>

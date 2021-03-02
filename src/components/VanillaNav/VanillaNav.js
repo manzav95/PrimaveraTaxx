@@ -60,11 +60,18 @@ const VanillaNav = () => {
                   COVID Tax Info
                 </a>
                 <a
-                  href='https://www.irs.gov/payments'
+                  href='https://www.taxact.com/tools/tax-calculator'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Link 3
+                  Tax Calculator
+                </a>
+                <a
+                  href='https://www.taxact.com/tax-information/tax-tools-and-calculators'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Tax Tools
                 </a>
               </div>
             </li>
