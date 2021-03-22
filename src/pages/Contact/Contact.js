@@ -30,23 +30,14 @@ function Contact() {
               <h5>Tax Season</h5>
               {/* Need to Edit and change hours to ACTUAL hours */}
               <p>Sunday: Closed</p>
-              <p>Monday: 8:00 am – 7:00 pm</p>
-              <p>Tuesday: 8:00 am – 7:00 pm</p>
-              <p>Wednesday: 9:00 am – 6:00 pm</p>
-              <p>Thursday: 8:00 am – 7:00 pm</p>
-              <p>Friday: 8:00 am – 7:00 pm</p>
-              <p>Saturday: 9:00 am – 6:00 pm</p>
+              <p>Monday thru Friday: 9:00am – 7:00pm</p>
+              <p>Saturday: 9:00am – 5:00pm</p>
             </div>
             <div className='normal-hours'>
               <h5>Regular</h5>
-
               <p>Sunday: Closed</p>
-              <p>Monday: 9:00 am – 7:00 pm</p>
-              <p>Tuesday: 9:00 am – 7:00 pm</p>
-              <p>Wednesday: 9:00 am – 7:00 pm</p>
-              <p>Thursday: 9:00 am – 7:00 pm</p>
-              <p>Friday: 9:00 am – 7:00 pm</p>
-              <p>Saturday: 9:00 am – 7:00 pm</p>
+              <p>Monday - Friday: 9:00am – 3:00pm</p>
+              <p>Saturday and Evenings: By Appointment Only</p>
             </div>
           </div>
         </div>
@@ -83,9 +74,6 @@ function Contact() {
           ></iframe>
         </div>
       </div>
-      {/* <div className='review-container'>
-        <div class='elfsight-app-b5b4cfbc-3455-44be-9d87-55f596917ca2'></div>
-      </div> */}
     </div>
   );
 }

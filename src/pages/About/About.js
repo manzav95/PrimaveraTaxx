@@ -26,12 +26,11 @@ function About() {
         <div className='abou card-wrapper'>
           <ProfileCard
             img={maria}
-            name='Maria L Hernandez'
             title='Founder/ Enrolled Agent'
           />
           <ProfileCard img={juan} name='Juan Jose Hernandez' />
           <ProfileCard name='Teresa Sosa' />
-          <ProfileCard name='Lorena J Zavala' title='Front Desk' />
+          <ProfileCard name='Laura Estrada' title='Secretary' />
         </div>
       </div>
       <div className='review-container'>
@@ -47,7 +46,7 @@ function ProfileCard(props) {
       <img src={props.img || profileimg } alt='Avatar' />
       <div className='card-container'>
         <h4>
-          <b>{props.name || 'Maria Hernandez'}</b>
+          <b>{props.name || 'Maria L. Hernandez'}</b>
         </h4>
         <p>{props.title || 'Tax Preparer'}</p>
       </div>
